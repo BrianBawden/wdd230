@@ -29,7 +29,6 @@ body{
     background-color: rgb(15, 58, 144);
     color:rgb(223, 211, 211);
     text-align: center;
-    
 }
 
 .content{
@@ -47,6 +46,7 @@ body{
 #copyright{
     padding-top: 10px;
     font-size: small;
+
 }
 
 #heading, #footer{
