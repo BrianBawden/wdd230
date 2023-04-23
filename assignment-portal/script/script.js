@@ -10,10 +10,10 @@ function getYear(){
 
 function getMY(){
    
-    let lastModif = new Date(document.lastModified);
-    let mMonth = lastModif.toLocaleString("default", {month: "long"});
-    let mYear = lastModif.getFullYear();
-    let date = `${mMonth} ${mYear}`;
+    const lastModif = new Date(document.lastModified);
+    const mMonth = lastModif.toLocaleString("default", {month: "long"});
+    const mYear = lastModif.getFullYear();
+    const date = `${mMonth} ${mYear}`;
 
     return date;
 }
