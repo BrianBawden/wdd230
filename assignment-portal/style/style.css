@@ -1,24 +1,51 @@
 body{
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
 }
 #selfie {
     width: 250px;
     max-height: 100%;
-    margin: 10px;
+    margin: 20px;
 }
 
 #heading1{
     float: right;
     margin-top: 180px;
     margin-right: 80px;
-
-
 }
 
-.heading{
+#heading{
     width: 75%;
-    height: 400px;
-    border: 5px solid red;
+    height: 375px;
     background-color: aquamarine;
+    color:darkblue;
+}
+
+#footer{
+    width: 75%;
+    height: 75px;
+    background-color: aquamarine;
+    color:darkblue;
+    text-align: center;
+    
+}
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#update{
+    margin-top: -15px;
+}
+
+#copyright{
+    padding-top: 10px;
+}
+
+#heading, #footer{
+    border-radius: 15px;
+
 }
