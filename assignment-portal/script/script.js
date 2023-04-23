@@ -13,7 +13,7 @@ function getMY(){
     let lastModif = new Date(document.lastModified);
     let mMonth = lastModif.toLocaleString("default", {month: "long"});
     let mYear = lastModif.getFullYear();
-    let date = mMonth + " " + mYear;
+    let date = `${mMonth} ${mYear}`;
 
     return date;
 }
