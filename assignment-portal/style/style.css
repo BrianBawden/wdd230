@@ -1,6 +1,8 @@
 body{
     max-width: 800px;
     margin: auto;
+    background-color: rgb(188, 180, 180);
+
 }
 #selfie {
     width: 250px;
@@ -17,15 +19,15 @@ body{
 #heading{
     width: 75%;
     height: 375px;
-    background-color: aquamarine;
-    color:darkblue;
+    background-color: rgb(15, 58, 144);
+    color:rgb(223, 211, 211);
 }
 
 #footer{
     width: 75%;
-    height: 75px;
-    background-color: aquamarine;
-    color:darkblue;
+    height: 50px;
+    background-color: rgb(15, 58, 144);
+    color:rgb(223, 211, 211);
     text-align: center;
     
 }
@@ -39,10 +41,12 @@ body{
 
 #update{
     margin-top: -15px;
+    font-size: x-small;
 }
 
 #copyright{
     padding-top: 10px;
+    font-size: small;
 }
 
 #heading, #footer{
