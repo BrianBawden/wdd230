@@ -1,55 +1,53 @@
-body{
-    max-width: 800px;
-    margin: auto;
-    background-color: rgb(188, 180, 180);
-
+body {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgb(188, 180, 180);
 }
 #selfie {
-    width: 250px;
-    max-height: 100%;
-    margin: 20px;
+  width: 250px;
+  max-height: 100%;
+  margin: 20px;
 }
 
-#heading1{
-    float: right;
-    margin-top: 180px;
-    margin-right: 80px;
+#heading1 {
+  float: right;
+  margin-top: 180px;
+  margin-right: 80px;
 }
 
-#heading{
-    width: 75%;
-    height: 375px;
-    background-color: rgb(15, 58, 144);
-    color:rgb(223, 211, 211);
+#heading {
+  width: 75%;
+  height: 375px;
+  background-color: rgb(15, 58, 144);
+  color: rgb(223, 211, 211);
 }
 
-#footer{
-    width: 75%;
-    height: 50px;
-    background-color: rgb(15, 58, 144);
-    color:rgb(223, 211, 211);
-    text-align: center;
+#footer {
+  width: 75%;
+  height: 50px;
+  background-color: rgb(15, 58, 144);
+  color: rgb(223, 211, 211);
+  text-align: center;
 }
 
-.content{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
+.content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-#update{
-    margin-top: -15px;
-    font-size: x-small;
+#update {
+  margin-top: -15px;
+  font-size: x-small;
 }
 
-#copyright{
-    padding-top: 10px;
-    font-size: small;
-
+#copyright {
+  padding-top: 10px;
+  font-size: small;
 }
 
-#heading, #footer{
-    border-radius: 15px;
-
+#heading,
+#footer {
+  border-radius: 15px;
 }
