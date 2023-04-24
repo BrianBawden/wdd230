@@ -1,8 +1,14 @@
 body {
   max-width: 800px;
-  margin: auto;
+  margin: 1.5rem auto;
   background-color: rgb(188, 180, 180);
 }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
 #selfie {
   width: 250px;
   max-height: 100%;
