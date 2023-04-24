@@ -1,16 +1,12 @@
 document.querySelector("#copyYear").innerHTML = getYear();
 
-document.querySelector("#modDate").innerHTML = getMY();
+document.querySelector("#modDate").innerHTML = getMod();
 
 function getYear() {
   return new Date().getFullYear();
 }
 
-function getMY() {
-  const lastModif = new Date(document.lastModified);
-  const mMonth = lastModif.toLocaleString("default", { month: "long" });
-  const mYear = lastModif.getFullYear();
-  const date = `${mMonth} ${mYear}`;
+function getMod() {
+    return new Date(document.lastModified);
 
-  return date;
 }
