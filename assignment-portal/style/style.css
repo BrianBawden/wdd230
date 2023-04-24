@@ -2,7 +2,7 @@ body {
   max-width: 700px;
   margin: 1.5rem auto;
   background-color: rgb(188, 180, 180);
-  font-family: "Courier New", monospace;
+  font-family: 'Bruno Ace SC', cursive;
 }
 
 .container {
@@ -30,6 +30,7 @@ body {
   text-align: center;
   padding-top: 2px;
   padding-bottom: 2px;
+
 }
 
 #update {
@@ -46,4 +47,9 @@ body {
 #heading,
 #footer {
   border-radius: 15px;
+}
+
+main{
+  font-family: "Courier New", monospace;
+
 }
