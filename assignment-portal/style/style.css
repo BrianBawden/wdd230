@@ -13,6 +13,7 @@ body {
   width: 250px;
   max-height: 100%;
   margin: 20px;
+  border-radius: 15px;
 }
 
 #heading1 {
