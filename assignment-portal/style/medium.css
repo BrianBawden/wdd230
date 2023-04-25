@@ -1,0 +1,11 @@
+@media (min-width: 32.5em){
+    body{
+        background-color: black;
+        color:bisque;
+        font-size: 20px;
+    }
+
+    #footer, #heading{
+        background-color: rgba(128, 128, 128, 0.559);
+    }
+}

@@ -6,9 +6,7 @@ body {
 }
 
 .container {
-  background-color: rgb(15, 58, 144);
   padding: 20px;
-  color: rgb(223, 211, 211);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -24,9 +22,6 @@ body {
 }
 
 #footer {
-  height: 40px;
-  background-color: rgb(15, 58, 144);
-  color: rgb(223, 211, 211);
   text-align: center;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -47,6 +42,9 @@ body {
 #heading,
 #footer {
   border-radius: 15px;
+  background-color: rgb(15, 58, 144);
+  color: rgb(223, 211, 211);
+
 }
 
 main{
