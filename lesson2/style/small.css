@@ -1,0 +1,56 @@
+body {
+    max-width: 700px;
+    margin: 1.5rem auto;
+    background-color: rgb(188, 180, 180);
+    font-family: 'Bruno Ace SC', cursive;
+  }
+
+  .container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: larger;
+  }
+
+  #selfie {
+    max-width: 100%;
+    height: 200px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  
+  #footer {
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  
+  }
+
+  #update {
+    margin-top: -10px;
+    padding-bottom: 3px;
+    font-size: x-small;
+  }
+  
+  #copyright {
+    margin-top: 3px;
+    font-size: small;
+  }
+
+  header,
+footer {
+  border-radius: 15px;
+  background-color: rgb(15, 58, 144);
+  color: rgb(223, 211, 211);
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+main{
+  font-family: "Courier New", monospace;
+  margin-left: 15px;
+  margin-right: 15px;
+}
