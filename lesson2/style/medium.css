@@ -1,65 +1,14 @@
-@media only screen and (max-width: 700px){
+@media only screen and (min-width: 700px){
     body{
     color: green;
-
     }
-   /* main{
-    display: grid;
-    grid-auto-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-   } */
-
-   header{
-    grid-column: span 1;
-    grid-row: 1/2;
-}
-
-main{
-    grid-column: span 1;
-    grid-row: 2/3;
-    padding: 20px;
-    font-size: xx-large;
-    gap: 10px;
-}
-
-footer{
-    grid-column: span 1;
-    grid-row: 3/3;
-}
 }
 
 
 /* css grid for smaller screen */
-@media only screen and (max-width: 450px){
+@media only screen and (min-width: 950px){
     body{
         max-width: 400px;
-        display: grid;
-        grid-template-rows: 1fr auto 1fr;
-        grid-template-columns: auto;
         color:red;
     }
-    
-    header{
-        grid-column: span 1;
-        grid-row: 1/2;
-    }
-    
-    main{
-        grid-column: span 1;
-        grid-row: 2/3;
-        padding: 20px;
-        font-size: xx-large;
-    }
-
-    footer{
-        grid-column: span 1;
-        grid-row: 3/3;
-    }
-
-    div{
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: 1fr;
-       }
 }
