@@ -1,6 +1,7 @@
 @media only screen and (min-width: 700px){
     body{
         max-width: 600px;
+        font-size: x-large;
     }
     main{
         display: grid;
@@ -36,5 +37,14 @@
 @media only screen and (min-width: 950px){
     body{
         max-width: 900px;
+        font-size: x-large;
+    }
+
+    #alignment{
+        max-width: 600px;
+    }
+
+    footer{
+        font-size: small;
     }
 }
