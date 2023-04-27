@@ -1,21 +1,25 @@
 @media screen and (max-width: 700px){
-    
+    body{
+    color: green;
+
+    }
    main{
     display: grid;
     grid-auto-rows: auto;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
    }
-
-
 }
 
 
+/* css grid for smaller screen */
 @media screen and (max-width: 450px){
     body{
         display: grid;
         grid-template-rows: 1fr auto 1fr;
         grid-template-columns: 400px;
+        color:red;
+
     }
     
     header{
@@ -29,7 +33,7 @@
         padding: 20px;
     }
 
-    .dps{
+    div{
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 1fr;
