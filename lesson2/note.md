@@ -39,3 +39,11 @@
 <br>
 
 - ### Three responsive views (small, medium, and large) 
+
+
+<br>
+
+## Notes
+
+- Place holer image:
+    - https://placehold.jp/en.html
