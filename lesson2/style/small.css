@@ -1,25 +1,22 @@
-
-body{
-    background-color: rgb(188, 180, 180);
-    max-width: 700px;
-    margin: 1.5rem auto;
-    display: grid;
-    grid-template-rows: 1fr auto 1fr;
-    grid-template-columns: auto;
-    color: red;
-    /* grid-gap: 10px; */
+@media (min-width: 400px){
+    body{
+        display: grid;
+        grid-template-rows: 1fr auto 1fr;
+        grid-template-columns: auto;
+    }
+    
+    header{
+        grid-column: auto;
+        grid-row: 1/2;
+    }
+    
+    main{
+        grid-column: auto;
+        grid-row: 2/3;
+        padding: 20px;
+    }
 }
 
-header{
-    grid-column: auto;
-    grid-row: 1/2;
-}
-
-main{
-    grid-column: auto;
-    grid-row: 2/3;
-    padding: 20px;
-}
 
 
  
