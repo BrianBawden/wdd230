@@ -1,8 +1,9 @@
-@media (min-width: 400px){
+@media (max-width: 450px){
     body{
         display: grid;
         grid-template-rows: 1fr auto 1fr;
-        grid-template-columns: auto;
+        grid-template-columns: 400px;
+        color: red;
     }
     
     header{
@@ -15,6 +16,17 @@
         grid-row: 2/3;
         padding: 20px;
     }
+
+    .dps{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+       }
+
+    /* .dps, img{
+
+    } */
+
 }
 
 

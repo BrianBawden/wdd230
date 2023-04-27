@@ -1,3 +1,15 @@
-@media (min-width: 700px){
-   
+@media (max-width: 850px){
+
+    body{
+        color: green;
+    }
+    
+   main{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+   }
+
+
 }
