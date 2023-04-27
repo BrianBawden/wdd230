@@ -1,7 +1,6 @@
 @media only screen and (min-width: 700px){
     body{
         max-width: 600px;
-        color: green;
     }
     main{
         display: grid;
@@ -24,6 +23,7 @@
         grid-row: 2/3;
         grid-column: 1/-1;
         justify-self: center;
+        max-width: 400px;
     }
 
     h3{
@@ -36,6 +36,5 @@
 @media only screen and (min-width: 950px){
     body{
         max-width: 900px;
-        color:red;
     }
 }
