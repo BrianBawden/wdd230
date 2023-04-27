@@ -14,7 +14,6 @@ header, footer{
     text-align: center;
 }
 
-
 img{
     margin: 1.5rem auto;
     border: 1px solid black;
@@ -22,7 +21,6 @@ img{
     margin-top: -10px;
     margin-bottom: -10px;;
 }
-
 
 h3{
     margin-top: 40px;
@@ -36,11 +34,11 @@ main{
     margin: 15px;
 }
 
-#alignment{
+/* #alignment{
     grid-column: 1/2;
-    grid-row: 2/2;
+    grid-row: 1/2;
     align-items: center;
-}
+} */
 
 div{
     margin: 15px;
