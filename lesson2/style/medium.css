@@ -1,6 +1,11 @@
 @media only screen and (min-width: 700px){
     body{
-    color: green;
+        max-width: 600px;
+        color: green;
+    }
+
+    h3{
+        margin-top: 60px;
     }
 }
 
