@@ -1,0 +1,28 @@
+body{
+    max-width: 700px;
+    margin: 1.5rem auto;
+    background-color: rgb(188, 180, 180);
+}
+
+header, footer{
+    background-color: rgb(15, 58, 144);
+    color: rgb(223, 211, 211);
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+
+img{
+    margin: 1.5rem auto;
+    border: 1px solid black;
+    background-color: #eee;
+    margin-top: -10px;
+    margin-bottom: -10px;;
+}
+
+
+h3{
+    margin-top: 40px;
+}
