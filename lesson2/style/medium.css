@@ -24,7 +24,7 @@
         grid-row: 2/3;
         grid-column: 1/-1;
         justify-self: center;
-        max-width: 300px;
+        max-width: 40%;
     }
 
     h3{
@@ -36,12 +36,12 @@
 /* css grid for smaller screen */
 @media only screen and (min-width: 950px){
     body{
-        max-width: 800px;
+        max-width: 900px;
         font-size: x-large;
     }
 
     #alignment{
-        max-width: 320px;
+        max-width: 40%;
     }
 
     footer{
