@@ -36,7 +36,7 @@
 /* css grid for smaller screen */
 @media only screen and (min-width: 950px){
     body{
-        max-width: 900px;
+        max-width: 1000px;
         font-size: x-large;
     }
 
