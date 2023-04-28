@@ -38,9 +38,11 @@ h3{
 }
 
 .dp-3{
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgba(15, 58, 144, 0.652);
+    border-radius: 5px;
     padding: 1px 20px;
-    /* padding-right: 20px;
-    padding-left: 20px; */
     background-color: rgb(41, 49, 108);
     border-radius: 15px;
     margin: 15px;
