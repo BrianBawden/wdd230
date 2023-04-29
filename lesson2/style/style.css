@@ -1,50 +1,44 @@
-body{
-    max-width: 400px;
-    margin: 1.5rem auto;
-    background-color: rgb(188, 180, 180);
+body {
+  max-width: 400px;
+  margin: 1.5rem auto;
+  background-color: rgb(188, 180, 180);
 }
 
-header, footer{
-    /* max-width: 100%; */
-    background-color: rgb(15, 58, 144);
-    color: rgb(223, 211, 211);
-    border-radius: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-align: center;
+header,
+footer {
+  background-color: rgb(15, 58, 144);
+  color: rgb(223, 211, 211);
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
 }
 
-footer{
-    margin-top: 25px;
-
+footer {
+  margin-top: 25px;
 }
 
-main{
-    text-align: center;
+main {
+  text-align: center;
+  gap: 20px;
 }
 
-img{
-    /* max-width: 80%; */
-    text-align: center;
-    border: 1px solid black;
-    background-color: #eee;
-    margin-top: -10px;
-    margin-bottom: -10px;;
+img {
+  text-align: center;
+  border: 1px solid black;
+  background-color: #eee;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
-.dp-3 h2{
-    max-width: 100%;
-    text-align: center;
-    background-color: rgb(15, 58, 144);
-    border-radius: 5px;
+.dp-3 h2 {
+  text-align: center;
+  background-color: rgb(15, 58, 144);
+  border-radius: 5px;
 }
 
-.dp-3{
-    /* margin-top: 40px; */
-    text-align: center;
-    background-color: rgba(84, 117, 184, 0.652);
-    /* padding: 1px 20px; */
-    border-radius: 15px;
-    margin: 15px;
-    color: rgb(223, 211, 211)
+.dp-3 {
+  background-color: rgba(84, 117, 184, 0.652);
+  border-radius: 15px;
+  color: rgb(223, 211, 211);
 }
