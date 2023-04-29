@@ -5,6 +5,7 @@ body{
 }
 
 header, footer{
+    /* max-width: 100%; */
     background-color: rgb(15, 58, 144);
     color: rgb(223, 211, 211);
     border-radius: 15px;
@@ -23,7 +24,7 @@ main{
 }
 
 img{
-    max-width: 80%;
+    /* max-width: 80%; */
     text-align: center;
     border: 1px solid black;
     background-color: #eee;
@@ -39,11 +40,10 @@ img{
 }
 
 .dp-3{
-    margin-top: 40px;
+    /* margin-top: 40px; */
     text-align: center;
     background-color: rgba(84, 117, 184, 0.652);
-    border-radius: 5px;
-    padding: 1px 20px;
+    /* padding: 1px 20px; */
     border-radius: 15px;
     margin: 15px;
     color: rgb(223, 211, 211)
