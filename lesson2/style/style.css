@@ -9,9 +9,9 @@ footer {
   background-color: rgb(15, 58, 144);
   color: rgb(223, 211, 211);
   border-radius: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
   text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 footer {
@@ -21,6 +21,8 @@ footer {
 main {
   text-align: center;
   gap: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 img {
