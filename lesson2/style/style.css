@@ -12,6 +12,8 @@ footer {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
+  font-family: 'Ubuntu', cursive;
+
 }
 
 footer {
@@ -23,6 +25,7 @@ main {
   gap: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  font-family: 'Castoro Titling', sans-serif;
 }
 
 img {
