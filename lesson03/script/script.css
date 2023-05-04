@@ -1,3 +1,11 @@
-body{
-    background-color: aquamarine;
+*{
+    margin: 0;
+    padding: 0;
+
 }
+
+header img{
+    width: 60px;
+}
+
+
