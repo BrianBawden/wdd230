@@ -1,11 +1,18 @@
 body{
+    background-color: #d9e1e8;
     max-width: 85%;
     font-family: 'Playfair Display', serif;
     margin: auto;
 }
-
+p{
+    color: black;
+}
 
 h1, h2, h3, h4{
+    color: #d9e1e8;
+    background-color: #3973bf;
+    border: 2px solid black;
+    padding: .4em;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -16,6 +23,9 @@ header img{
 img{
     margin: 10px;
 }
+li a{
+    /* color: #3973bf; */
+}
 
 #oswald h4{
     font-family: 'Oswald', sans-serif;
@@ -25,13 +35,18 @@ img{
     font-family: 'Playfair Display', serif;
 }
 
+.schema{
+    display: flex;
+    flex-direction: column;
+}
 .colors{
     text-align: center;
-    font-size: x-small;
+    font-size: small;
     width: 30%;
-    height: 3em;
+    height: 4em;
     border: 2px solid black;
-    margin: .4em;
+    margin: .4em auto;
+    padding: 4em;
 }
 
 .gray{
