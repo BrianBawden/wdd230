@@ -11,5 +11,10 @@ document.querySelector("header").innerHTML =
 
   document.querySelector("footer").innerHTML =
   `
-  
+  <footer class="content">
+      <p id="copyright">
+        &copy; <span id="copyYear"></span> .:|:.Brian Bawden.:|:. Canton, GA
+      </p>
+      <p id="update">Last updated: <span id="modDate"></span></p>
+    </footer>
   `

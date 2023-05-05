@@ -3,10 +3,16 @@ body{
     max-width: 85%;
     font-family: 'Playfair Display', serif;
     margin: auto;
+    font-size: x-large;
 }
-p{
-    color: black;
+
+footer{
+    text-align: center;
+    background-color: #3973bf;
+    color: #d9e1e8;
+    padding: .4em;
 }
+
 
 h1, h2, h3, h4{
     color: #d9e1e8;
@@ -17,14 +23,11 @@ h1, h2, h3, h4{
 }
 
 header img{
-    width: 60px;
+    width: 2em;
 }
 
 img{
     margin: 10px;
-}
-li a{
-    /* color: #3973bf; */
 }
 
 #oswald h4{
@@ -39,9 +42,9 @@ li a{
     display: flex;
     flex-direction: column;
 }
+
 .colors{
     text-align: center;
-    font-size: small;
     width: 30%;
     height: 4em;
     border: 2px solid black;
