@@ -1,10 +1,10 @@
 document.querySelector("header").innerHTML =
   `
-   <h1><img src="images/logo.png" alt="mountain top logo"> Chamber of Commerce</h1>
+   <h1><img src="images/logo.png" alt="mountain top logo">Timpanogas Chamber of Commerce</h1>
   <div class="links">
-      <p><a href="index.html"> Home </a></p>
-      <p><a href="target-audience.html"> Target Audience </a></p>
-      <p><a href="design.html"> Design </a></p>
+      <h2><a href="index.html"> Home </a></h2>
+      <h2><a href="target-audience.html"> Target Audience </a></h2>
+      <h2><a href="design.html"> Design </a></h2>
   </div>
   `;
 

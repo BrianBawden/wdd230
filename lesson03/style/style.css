@@ -3,10 +3,12 @@ body{
     max-width: 85%;
     font-family: 'Playfair Display', serif;
     margin: auto;
-    font-size: x-large;
+    word-wrap: break-word;
 }
 
 footer{
+    border-radius: 15px;
+
     text-align: center;
     background-color: #3973bf;
     color: #d9e1e8;
@@ -15,6 +17,8 @@ footer{
 
 
 h1, h2, h3, h4{
+    border-radius: 15px;
+
     color: #d9e1e8;
     background-color: #3973bf;
     border: 2px solid black;
@@ -31,7 +35,9 @@ img{
 }
 
 .links{
+    margin: 0 auto;
     text-align: center;
+    width: 40%;
 }
 
 #oswald h4{
