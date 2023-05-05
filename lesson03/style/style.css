@@ -30,6 +30,10 @@ img{
     margin: 10px;
 }
 
+.links{
+    text-align: center;
+}
+
 #oswald h4{
     font-family: 'Oswald', sans-serif;
 }
