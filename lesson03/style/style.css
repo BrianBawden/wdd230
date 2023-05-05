@@ -1,5 +1,7 @@
 body{
+    max-width: 85%;
     font-family: 'Playfair Display', serif;
+    margin: auto;
 }
 
 
@@ -21,4 +23,29 @@ img{
 
 #playfair h4{
     font-family: 'Playfair Display', serif;
+}
+
+.colors{
+    text-align: center;
+    font-size: x-small;
+    width: 30%;
+    height: 3em;
+    border: 2px solid black;
+    margin: .4em;
+}
+
+.gray{
+    background-color: #7f766d;
+}
+.celtic-blue{
+    background-color: #3973bf;
+}
+.alice-blue{
+    background-color: #d9e1e8;
+}
+.blue-gray{
+    background-color: #7299c8;
+}
+.powder-blue{
+    background-color: #9ab0ca;
 }
