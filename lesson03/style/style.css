@@ -1,9 +1,7 @@
-*{
-    margin: 10;
-    padding: 10;
-
-}
-
 header img{
     width: 60px;
+}
+
+img{
+    margin: 10px;
 }
