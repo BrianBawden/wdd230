@@ -1,0 +1,7 @@
+@media(min-width: 700px){
+    div .links{
+        display: flex;
+        flex-direction: row;
+        margin: .4em;
+    }
+}
