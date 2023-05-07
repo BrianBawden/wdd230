@@ -1,7 +1,15 @@
 @media(min-width: 700px){
-    div .links{
+
+    .links{
         display: flex;
         flex-direction: row;
-        margin: .4em;
+        margin: 4em auto;
     }
+
+    .links h2{
+        margin: .4em;
+        background-color: #d9e1e8;
+        border: none;
+    }
+
 }

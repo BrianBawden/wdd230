@@ -38,6 +38,11 @@ img{
     width: 40%;
 }
 
+.links h2{
+    border: none;
+    background-color: #d9e1e8;
+}
+
 #oswald h4{
     font-family: 'Oswald', sans-serif;
 }
