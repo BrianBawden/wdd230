@@ -1,0 +1,17 @@
+
+header{
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.logo{
+    width: 700px;
+    /* flex-direction: row-reverse; */
+}
+
+img{
+    /* float: left; */
+    width: 70px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
