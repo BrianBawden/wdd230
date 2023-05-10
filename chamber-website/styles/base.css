@@ -1,19 +1,36 @@
 
-header{
-    /* display: flex; */
+body{
+    background-color: #d9e1e8;
+    max-width: 85%;
+    margin: 0 auto;
+    word-wrap: break-word;
+    text-align: center;
 }
 
-header div{
-    flex-direction: column;
-}
-
-.logo{
-    width: 700px;
-}
-
-img{
-    /* float: left; */
+.icon{
     width: 70px;
     padding-top: 20px;
     margin-left: 10px;
+}
+
+header, footer{
+    background-color: #3973bf;
+    color: #d9e1e8;
+}
+
+.info{
+    border: 2px solid #7299c8;
+    width: 97%;
+    height: 200px;
+    margin: 1em 0;
+}
+
+.spotlight{
+    height: auto;
+    border: 2px solid #7299c8;
+}
+
+#spot1, #spot2{
+    border: 2px solid #7299c8;
+    margin: 1em 1.3em;
 }
