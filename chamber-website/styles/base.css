@@ -1,12 +1,14 @@
 
 header{
     /* display: flex; */
-    /* flex-direction: row; */
+}
+
+header div{
+    flex-direction: column;
 }
 
 .logo{
     width: 700px;
-    /* flex-direction: row-reverse; */
 }
 
 img{
