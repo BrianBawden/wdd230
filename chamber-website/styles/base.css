@@ -22,7 +22,7 @@ header{
     margin: 0 auto;
 }
 h1{
-    margin: .4em;
+    /* margin: .4em; */
     width: 50%;
 }
 .icon{
@@ -44,7 +44,7 @@ header, footer{
 
 .info{
     border: 2px solid #7299c8;
-    width: 97%;
+    /* width: 97%; */
     height: 200px;
     margin: 1em 0;
 }
@@ -57,6 +57,5 @@ header, footer{
 #spot1, #spot2, img{
     border: 2px solid #7299c8;
     margin: 1em 1.3em;
-    width: 80%;
-    
+    text-align: center;
 }
