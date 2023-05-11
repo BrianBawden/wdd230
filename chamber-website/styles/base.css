@@ -54,7 +54,8 @@ header, footer{
     border: 2px solid #7299c8;
 }
 
-#spot1, #spot2, img{
+#spot1, #spot2{
+    padding: .4em;
     border: 2px solid #7299c8;
     margin: 1em 1.3em;
     text-align: center;
