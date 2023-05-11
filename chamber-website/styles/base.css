@@ -7,6 +7,10 @@ body{
     text-align: center;
 }
 
+.nav li{
+    display: none;
+}
+
 .icon{
     width: 70px;
     padding-top: 20px;
