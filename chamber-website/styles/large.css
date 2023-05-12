@@ -61,10 +61,14 @@
     #spot1, #spot2, #spot3{
         width: 85%;
         margin-left: 1em;
+        max-height: 210px;
+
     }
 
     .info div img{
         width: 85%;
+        max-height: 190px;
+
     }
 
     .weather{

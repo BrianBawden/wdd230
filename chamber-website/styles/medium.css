@@ -1,7 +1,8 @@
 @media(min-width: 600px) and (max-width: 950px){
     main{
+        padding: 10px 0px;
         display: grid;
-        /* row-gap: 10px; */
+        gap: 10px;
         grid-template-rows: auto;
         grid-template-columns: repeat(4, 1fr) ;
     }
@@ -37,10 +38,12 @@
     }
 
     #spot1{
+        margin: 5px 0px;
         grid-column-start: 1;
         grid-column-end: 2;
     }
     #spot2{
+        margin: 5px 0px;
         grid-column-start: 2;
         grid-column-end: 3;
     }
