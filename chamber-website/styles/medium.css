@@ -1,10 +1,59 @@
-@media only screen and(min-width: 600px){
-
-    body{
-        background-color: red;
+@media(min-width: 600px){
+    main{
+        display: grid;
+        /* row-gap: 10px; */
+        grid-template-rows: auto;
+        grid-template-columns: repeat(4, 1fr) ;
     }
-    nav, li:first-child{
-        display: none;
+
+    .action{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .event{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .news{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin-right: 10px;
+    }
+    .spotlight{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #spot1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 45%;
+    }
+    #spot2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        width: 45%;
+    }
+    #spot1, #spot2, img{
+        width: 80%;
+    }
+
+    .weather{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 4;
+        grid-column-end: 5;
     }
     
 }
