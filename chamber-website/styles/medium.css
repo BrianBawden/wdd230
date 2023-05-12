@@ -1,4 +1,4 @@
-@media(min-width: 600px){
+@media(min-width: 600px) and (max-width: 950px){
     main{
         display: grid;
         /* row-gap: 10px; */
@@ -26,6 +26,7 @@
         margin-right: 10px;
     }
     .spotlight{
+        padding-left: 3em;
         grid-row-start: 3;
         grid-row-end: 4;
         grid-column-start: 1;
@@ -38,12 +39,10 @@
     #spot1{
         grid-column-start: 1;
         grid-column-end: 2;
-        width: 45%;
     }
     #spot2{
         grid-column-start: 2;
         grid-column-end: 3;
-        width: 45%;
     }
     #spot1, #spot2, img{
         width: 80%;
@@ -53,6 +52,12 @@
         grid-row-start: 4;
         grid-row-end: 5;
         grid-column-start: 4;
+        grid-column-end: 5;
+    }
+
+    .join{
+        display: unset;
+        grid-column-start: 1;
         grid-column-end: 5;
     }
     

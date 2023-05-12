@@ -4,7 +4,7 @@ body{
     max-width: 85%;
     margin: 0 auto;
     word-wrap: break-word;
-    /* text-align: center; */
+    text-align: center;
 }
 
 header{
@@ -46,7 +46,6 @@ header, footer{
     border: 2px solid #7299c8;
     /* width: 97%; */
     height: 200px;
-    margin: 1em 0;
 }
 
 .spotlight{
@@ -54,9 +53,16 @@ header, footer{
     border: 2px solid #7299c8;
 }
 
-#spot1, #spot2{
-    padding: .4em;
+#spot1, #spot2, #spot3{
+    padding: 1.4em 0 1em 0;
     border: 2px solid #7299c8;
-    margin: 1em 1.3em;
     text-align: center;
+}
+
+#spot3{
+    display: none;
+}
+
+.join{
+    display: none;
 }
