@@ -1,4 +1,5 @@
 @media(min-width: 600px) and (max-width: 950px){
+    /* start main grid */
     main{
         padding: 10px 0px;
         display: grid;
@@ -6,7 +7,8 @@
         grid-template-rows: auto;
         grid-template-columns: repeat(4, 1fr) ;
     }
-
+    
+    /* main grid */
     .action{
         grid-row-start: 1;
         grid-row-end: 2;
@@ -26,6 +28,18 @@
         grid-column-end: 4;
         margin-right: 10px;
     }
+    .weather{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+    .join{
+        display: unset;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    /* start spotlight grid medium */
     .spotlight{
         padding-left: 3em;
         grid-row-start: 3;
@@ -36,7 +50,7 @@
         grid-template-rows: auto;
         grid-template-columns: 1fr 1fr;
     }
-
+    /* spotlight grid */
     #spot1{
         margin: 5px 0px;
         grid-column-start: 1;
@@ -51,17 +65,6 @@
         width: 80%;
     }
 
-    .weather{
-        grid-row-start: 4;
-        grid-row-end: 5;
-        grid-column-start: 4;
-        grid-column-end: 5;
-    }
 
-    .join{
-        display: unset;
-        grid-column-start: 1;
-        grid-column-end: 5;
-    }
     
 }

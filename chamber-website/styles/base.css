@@ -51,6 +51,7 @@ ul li{
     font-size: 2.5em;
 }
 
+/* .open is added to the ul when the hamburger menu is clicked */
 .open li{
     display: block;
 }
@@ -66,12 +67,14 @@ footer a{
 
 }
 
+/* The different parts inside the main */
 .info{
     border: 2px solid #7299c8;
     /* width: 97%; */
     height: 200px;
 }
 
+/* The window for the spotlights */
 .spotlight{
     height: auto;
     border: 2px solid #7299c8;
@@ -83,10 +86,12 @@ footer a{
     text-align: center;
 }
 
+/* for the small and medium views spot3 is not displayed */
 #spot3{
     display: none;
 }
 
+/* For the small the join is not displayed */
 .join{
     display: none;
 }

@@ -1,12 +1,6 @@
 @media (min-width: 949px){
-    main{
-        padding: .4em 0;
-        display: grid;
-        gap: .4em;
-        grid-template-rows: auto;
-        grid-template-columns: repeat(4, 1fr);
-    }
-
+    /* start main grid large */
+    
     .nav li:first-child{
         display: none;
     }
@@ -19,6 +13,13 @@
         width: 85%;
         display: flex;
         justify-content: space-between;
+    }
+    main{
+        padding: .4em 0;
+        display: grid;
+        gap: .4em;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .action{
