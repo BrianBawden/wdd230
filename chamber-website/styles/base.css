@@ -31,10 +31,27 @@ h1{
     margin-left: 10px;
 }
 
+header ul li a{
+    text-decoration: none;
+}
+
 ul li{
+    background-color: #d9e1e8;
+
+    display: none;
     list-style: none;
     font-size: 1.4em;
     margin: .4em 0;
+}
+
+.nav li:first-child{
+    background-color: unset;
+    display: block;
+    border-bottom: none;
+}
+
+.open li{
+    display: block;
 }
 
 header, footer{

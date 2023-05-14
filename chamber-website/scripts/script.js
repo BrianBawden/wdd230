@@ -1,3 +1,4 @@
 function toggleMenu(){
-    console.log("hi")
+    console.log("test")
+    document.querySelector(".nav").classList.toggle("open");
 }

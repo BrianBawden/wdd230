@@ -11,6 +11,10 @@
         display: none;
     }
 
+    .nav li{
+        display: block;
+    }
+
     .nav{
         width: 85%;
         display: flex;
