@@ -1,19 +1,21 @@
 @media (min-width: 949px){
-    /* start main grid large */
-    
+
+/* header content */
+    /* Stop showing the hamburger li */
     .nav li:first-child{
         display: none;
     }
-
+    /* Change nav to row display */
     .nav li{
         display: block;
     }
-
     .nav{
         width: 85%;
         display: flex;
         justify-content: space-between;
     }
+/* main content */
+    /* start large grid display */
     main{
         padding: .4em 0;
         display: grid;
@@ -21,7 +23,6 @@
         grid-template-rows: auto;
         grid-template-columns: repeat(4, 1fr);
     }
-
     .action{
         height: unset;
         grid-row-start: 1;
@@ -49,6 +50,7 @@
         grid-row-start: 3;
         grid-row-end: 4;
     }
+    /* start spotlight grid */
     .spotlight{
         grid-row-start: 1;
         grid-row-end: 4;
@@ -59,7 +61,6 @@
         grid-template-rows: auto;
         grid-template-columns: 1fr;
     }
-
     #spot1{
         grid-row-start: 1;
         grid-row-end: 2;

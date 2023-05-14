@@ -6,7 +6,7 @@ body{
     word-wrap: break-word;
     text-align: center;
 }
-
+/* header css content */
 header{
     display: flex;
     flex-direction: column;
@@ -14,7 +14,6 @@ header{
     align-items: center;
     justify-content: center;
 }
-
 .logo{
     display: flex;
     align-items: center;
@@ -30,11 +29,9 @@ h1{
     padding-top: 20px;
     margin-left: 10px;
 }
-
 header ul li a{
     text-decoration: none;
 }
-
 ul li{
     background-color: #7299c8;
     padding: 2px 10px;
@@ -43,14 +40,12 @@ ul li{
     font-size: 1.4em;
     margin: .4em 0;
 }
-
 .nav li:first-child{
     background-color: unset;
     display: block;
     border-bottom: none;
     font-size: 2.5em;
 }
-
 /* .open is added to the ul when the hamburger menu is clicked */
 .open li{
     display: block;
@@ -61,37 +56,34 @@ header, footer{
     color: #d9e1e8;
 }
 
-footer a{
-    background-color: #7299c8;
-    padding: 2px 10px;
 
-}
-
-/* The different parts inside the main */
+/* main content */
 .info{
     border: 2px solid #7299c8;
     /* width: 97%; */
     height: 200px;
 }
-
 /* The window for the spotlights */
 .spotlight{
     height: auto;
     border: 2px solid #7299c8;
 }
-
 #spot1, #spot2, #spot3{
     padding: 1.4em 0 1em 0;
     border: 2px solid #7299c8;
     text-align: center;
 }
-
 /* for the small and medium views spot3 is not displayed */
 #spot3{
     display: none;
 }
-
 /* For the small the join is not displayed */
 .join{
     display: none;
+}
+
+/* footer content */
+footer a{
+    background-color: #7299c8;
+    padding: 2px 10px;
 }
