@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+input{
+    background-color: red;
+}
+
+li{
+    margin: 20px;
+}
+
+button{
+    margin: 20px;
+}

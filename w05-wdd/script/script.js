@@ -11,13 +11,15 @@ function addScripture(){
     newLi.textContent = nextScript;
     delBtn.textContent = "Delete";
 
+    newLi.setAttribute("class", newLi.textContent);
+   
+
+
     scriptList.appendChild(newLi);
     newLi.appendChild(delBtn);
 
+    delBtn.addEventListener("click", () => {
+        scriptList.removeChild(newLi);
+    });
     document.querySelector("#add-chapter").value = '';
-    // document.querySelector("#chapter-list").innerHTML = nextScript;
-}
-
-function deleteChapter(){
-    
 }
