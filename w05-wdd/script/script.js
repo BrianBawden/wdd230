@@ -9,7 +9,7 @@ function addScripture(){
     const nextScript = document.querySelector("#add-chapter").value;
     
     newLi.textContent = nextScript;
-    delBtn.textContent = "Delete";
+    delBtn.textContent = "X";
 
     newLi.setAttribute("class", newLi.textContent);
    
