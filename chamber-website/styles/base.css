@@ -5,6 +5,10 @@ body {
   word-wrap: break-word;
   text-align: center;
 }
+a:hover{
+    background-color: blue;
+    color: white;
+}
 /* header css content */
 header {
   display: flex;
@@ -38,6 +42,9 @@ ul li {
   list-style: none;
   font-size: 1.4em;
   margin: 0.4em 0;
+}
+ul li:hover{
+    background-color: blue;
 }
 .nav li:first-child {
   background-color: unset;
