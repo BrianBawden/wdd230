@@ -2,7 +2,7 @@
   /*  main content */
   /* star main grid */
   main {
-    padding: 10px 0px;
+    padding: 10px .5em;
     display: grid;
     gap: 10px;
     grid-template-rows: auto;

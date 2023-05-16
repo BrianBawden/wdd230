@@ -1,5 +1,6 @@
 body {
-  background-color: #d9e1e8;
+  /* background-color: #d9e1e8; */
+  background-color: rgba(0, 0, 0, 0.708);
   max-width: 85%;
   margin: 0 auto;
   word-wrap: break-word;
@@ -20,7 +21,7 @@ header {
 .banner{
     background-color: rgb(255, 255, 98);
     color: #000;
-    border-radius: 3%;
+    padding: 0 1em;
 }
 .logo {
   display: flex;
@@ -69,6 +70,10 @@ footer {
 }
 
 /* main content */
+main{
+    background-color: #d9e1e8;
+    padding: 0px .4em;
+}
 .info {
   border: 2px solid #7299c8;
   /* width: 97%; */
