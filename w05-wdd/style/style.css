@@ -1,15 +1,15 @@
 body{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.65);
     color:white;
 }
 
 input{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.738);
     color: white;
 }
 
 ol{
-    border: 2px solid blue;
+    border: 2px solid rgba(0, 0, 255, 0.617);
     width: 40%;
 }
 
