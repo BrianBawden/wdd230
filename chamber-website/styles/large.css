@@ -16,7 +16,7 @@
   /* main content */
   /* start large grid display */
   main {
-    padding: 0.4em .5em;
+    padding: 0.5em .5em;
     display: grid;
     gap: 0.4em;
     grid-template-rows: auto;
