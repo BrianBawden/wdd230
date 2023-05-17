@@ -20,6 +20,5 @@ function getMod() {
 }
 
 if (now.getDay() === 1 || now.getDay() === 2){
-  console.log(now.getDay());
   document.querySelector(".banner").style.display= "unset";
 }
