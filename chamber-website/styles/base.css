@@ -3,8 +3,10 @@ body {
   background-color: rgba(0, 0, 0, 0.708);
   max-width: 85%;
   margin: 0 auto;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
+  overflow: auto;
   text-align: center;
+  font-size: x-large;
 }
 a:hover {
   background-color: blue;
@@ -33,6 +35,9 @@ header {
 h1 {
   /* margin: .4em; */
   width: 50%;
+}
+.response{
+  margin: -10px 0px;
 }
 .icon {
   width: 70px;
@@ -86,29 +91,37 @@ main {
   gap: .4em;
 }
 .action {
-  display: grid;
+  position: relative;
   grid-template-columns: 1fr;
 }
-.action-child{
-  grid-row-start: 1;
-  grid-column-start:1 ;
+
+.action section{
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+#timp-flag{
+  max-width: 100%;
 }
 
 #join-chamber{
-  margin-left: 40%;
-  margin-top: 10%;
   background-color: blue;
   color: #d9e1e8;
-  padding-top: 10px;
-  padding-bottom: 10px;
   border-radius: 5px;
+  padding: 10px;
+  font-size: medium;
 }
 
-.action picture img {
-  display: block;
-  width: 100%;
-  height: auto;
+#join-chamber a:hover{
+  background-color: #d9e1e8;
+  color: blue;
 }
+#join-chamber a{
+  text-decoration: none;
+  color: #d9e1e8;
+}
+
 /* The window for the spotlights */
 .spotlight {
   height: auto;
