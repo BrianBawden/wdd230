@@ -32,10 +32,7 @@ header {
   justify-content: center;
   margin: 0 auto;
 }
-h1 {
-  /* margin: .4em; */
-  width: 50%;
-}
+
 .response{
   margin: -10px 0px;
 }
@@ -85,14 +82,25 @@ main {
   padding: 0.4em 0.4em;
 }
 
+hr{
+  border: 2px solid rgb(100, 100, 187);
+  width: 86%;
+}
+
 .info {
   border: 2px solid #7299c8;
   display: grid;
   gap: .4em;
+  background-color: #7299c8;
+  margin-top: 1em;
 }
 .action {
   position: relative;
   grid-template-columns: 1fr;
+}
+
+main h3{
+  color: rgb(210, 210, 53);
 }
 
 .action section{
