@@ -97,7 +97,8 @@ main {
 #join-chamber{
   margin-left: 40%;
   margin-top: 10%;
-  background-color: red;
+  background-color: blue;
+  color: #d9e1e8;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
