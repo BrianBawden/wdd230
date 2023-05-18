@@ -6,9 +6,9 @@ body {
   word-wrap: break-word;
   text-align: center;
 }
-a:hover{
-    background-color: blue;
-    color: white;
+a:hover {
+  background-color: blue;
+  color: white;
 }
 /* header css content */
 header {
@@ -18,11 +18,11 @@ header {
   align-items: center;
   justify-content: center;
 }
-.banner{
-    background-color: rgb(255, 255, 98);
-    color: #000;
-    padding: 0 1em;
-    display: none;
+.banner {
+  background-color: rgb(255, 255, 98);
+  color: #000;
+  padding: 0 1em;
+  display: none;
 }
 .logo {
   display: flex;
@@ -50,8 +50,11 @@ ul li {
   font-size: 1.4em;
   margin: 0.4em 0;
 }
-ul li:hover{
-    background-color: blue;
+ul li:hover {
+  background-color: blue;
+}
+.nav li:hover a{
+  color: white;
 }
 .nav li:first-child {
   background-color: unset;
@@ -71,20 +74,20 @@ footer {
 }
 
 /* main content */
-main{
+main {
   max-width: 100%;
-    background-color: #d9e1e8;
-    padding: .4em .4em;
+  background-color: #d9e1e8;
+  padding: 0.4em 0.4em;
 }
 
 .info {
   border: 2px solid #7299c8;
   height: 250px;
 }
-.action{
+.action {
   position: relative;
 }
-.action picture img{
+.action picture img {
   /* position: absolute;
   top: 0;
   left: 0;
@@ -95,7 +98,7 @@ main{
   width: 100%;
   height: auto;
 }
-.action picture{
+.action picture {
   position: relative;
 }
 /* The window for the spotlights */
