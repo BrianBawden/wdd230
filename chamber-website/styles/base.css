@@ -82,24 +82,16 @@ main {
 
 .info {
   border: 2px solid #7299c8;
-  height: 250px;
+  display: grid;
+  gap: .4em;
 }
 .action {
-  position: relative;
+  display: grid;
 }
 .action picture img {
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  max-width: 100%;
-  height: auto; */
   display: block;
   width: 100%;
   height: auto;
-}
-.action picture {
-  position: relative;
 }
 /* The window for the spotlights */
 .spotlight {
