@@ -87,7 +87,22 @@ main {
 }
 .action {
   display: grid;
+  grid-template-columns: 1fr;
 }
+.action-child{
+  grid-row-start: 1;
+  grid-column-start:1 ;
+}
+
+#join-chamber{
+  margin-left: 40%;
+  margin-top: 10%;
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
 .action picture img {
   display: block;
   width: 100%;
