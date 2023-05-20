@@ -19,6 +19,10 @@
     top: 10%;
     right: 15%;
   }
+  #join-chamber{
+    width: 10rem;
+    font-size: .8em;
+  }
   .event {
     grid-row-start: 2;
     grid-row-end: 3;
