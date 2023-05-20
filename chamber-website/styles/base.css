@@ -1,11 +1,9 @@
 body {
-  /* background-color: #d9e1e8; */
   background-color: rgba(0, 0, 0, 0.708);
-  margin: 0 auto; 
   word-wrap: break-word;
   overflow: auto;
   text-align: center;
-  /* font-size: x-large; */
+  overflow-x: hidden;
 }
 a:hover {
   background-color: blue;
