@@ -1,12 +1,15 @@
 @media (min-width: 949px) {
   /* header content */
   /* Stop showing the hamburger li */
+  body{
+    font-size: 1em;
+  }
   .nav li:first-child {
     display: none;
   }
   .nav {
     display: flex;
-    justify-content: space-between;
+    margin-left: -4em;
   }
   /* Change nav to row display */
   .nav li {
@@ -20,6 +23,7 @@
     gap: 0.4em;
     grid-template-rows: auto;
     grid-template-columns: repeat(4, 1fr);
+    font-size: 1em;
   }
   .action {
     height: unset;
@@ -27,6 +31,9 @@
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 4;
+  }
+  #timp-flag{
+    height: 100%;
   }
   .event {
     grid-row-start: 1;
@@ -65,7 +72,6 @@
     grid-column-start: 4;
     grid-column-end: 5;
     display: grid;
-    row-gap: 5px;
     grid-template-rows: auto;
     grid-template-columns: 1fr;
   }
@@ -87,11 +93,7 @@
   #spot3 {
     width: 85%;
     margin-left: 1em;
-    max-height: 210px;
+    margin-bottom: -20px;
   }
-  /* set image size for the spots. */
-  .info div img {
-    width: 85%;
-    height: 500px;
-  }
+
 }

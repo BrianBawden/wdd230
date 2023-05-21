@@ -135,15 +135,10 @@ main h3{
 }
 
 /* The window for the spotlights */
-.spotlight {
-  height: auto;
-  border: 2px solid #7299c8;
-}
+
 #spot1,
 #spot2,
 #spot3 {
-  padding: 1.4em 0 1em 0;
-  border: 2px solid #7299c8;
   text-align: center;
 }
 /* for the small and medium views spot3 is not displayed */
