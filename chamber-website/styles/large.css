@@ -4,13 +4,13 @@
   .nav li:first-child {
     display: none;
   }
-  /* Change nav to row display */
-  .nav li {
-    display: block;
-  }
   .nav {
     display: flex;
     justify-content: space-between;
+  }
+  /* Change nav to row display */
+  .nav li {
+    display: block;
   }
   /* main content */
   /* start large grid display */
@@ -92,6 +92,6 @@
   /* set image size for the spots. */
   .info div img {
     width: 85%;
-    max-height: 190px;
+    height: 500px;
   }
 }

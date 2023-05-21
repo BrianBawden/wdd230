@@ -1,9 +1,11 @@
 body {
+  /* background-color: #d9e1e8; */
   background-color: rgba(0, 0, 0, 0.708);
+  margin: 0 auto; 
   word-wrap: break-word;
   overflow: auto;
   text-align: center;
-  overflow-x: hidden;
+  /* font-size: x-large; */
 }
 a:hover {
   background-color: blue;
@@ -119,7 +121,11 @@ main h3{
   font-size: medium;
 }
 
-#join-chamber a:hover{
+#join-chamber:hover{
+  background-color: #d9e1e8;
+}
+
+#join-chamber:hover a{
   background-color: #d9e1e8;
   color: blue;
 }
