@@ -1,7 +1,7 @@
 body {
   /* background-color: #d9e1e8; */
   background-color: rgba(0, 0, 0, 0.708);
-  margin: 0 auto; 
+  margin: 0 auto;
   word-wrap: break-word;
   overflow: auto;
   text-align: center;
@@ -32,7 +32,7 @@ header {
   margin: 0 auto;
 }
 
-.response{
+.response {
   margin: -10px 0px;
 }
 .icon {
@@ -42,7 +42,7 @@ header {
 }
 header ul li a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 ul li {
   /* background-color: #7299c8; */
@@ -55,7 +55,7 @@ ul li {
 ul li:hover {
   background-color: blue;
 }
-.nav li:hover a{
+.nav li:hover a {
   color: white;
 }
 .nav li:first-child {
@@ -84,7 +84,7 @@ main {
   font-size: x-large;
 }
 
-hr{
+hr {
   border: 2px solid rgb(100, 100, 187);
   width: 86%;
 }
@@ -92,7 +92,7 @@ hr{
 .info {
   border: 2px solid #7299c8;
   display: grid;
-  gap: .4em;
+  gap: 0.4em;
   background-color: #7299c8;
   margin-top: 1em;
 }
@@ -101,22 +101,22 @@ hr{
   grid-template-columns: 1fr;
 }
 
-main h3{
+main h3 {
   /* color: rgb(210, 210, 53); */
   color: #000;
 }
 
-.action section{
+.action section {
   position: absolute;
   top: 10%;
   right: 5%;
 }
 
-#timp-flag{
+#timp-flag {
   max-width: 100%;
 }
 
-#join-chamber{
+#join-chamber {
   background-color: blue;
   color: #d9e1e8;
   border-radius: 5px;
@@ -124,15 +124,15 @@ main h3{
   font-size: medium;
 }
 
-#join-chamber:hover{
+#join-chamber:hover {
   background-color: #d9e1e8;
 }
 
-#join-chamber:hover a{
+#join-chamber:hover a {
   background-color: #d9e1e8;
   color: blue;
 }
-#join-chamber a{
+#join-chamber a {
   text-decoration: none;
   color: #d9e1e8;
 }

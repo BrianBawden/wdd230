@@ -2,7 +2,7 @@
   /*  main content */
   /* star main grid */
   main {
-    padding: .5em .5em;
+    padding: 0.5em 0.5em;
     display: grid;
     gap: 10px;
     grid-template-rows: auto;
@@ -14,13 +14,13 @@
     grid-column-start: 1;
     grid-column-end: 5;
   }
-  .action section{
+  .action section {
     top: 10%;
     right: 15%;
   }
-  #join-chamber{
+  #join-chamber {
     width: 10rem;
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .event {
     grid-row-start: 2;
