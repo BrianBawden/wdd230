@@ -71,6 +71,11 @@
   .info {
     padding: 5px 0px;
   }
+
+  .action{
+    padding: 0;
+    border: 0;
+  }
   /* start spotlight grid */
   .spotlight {
     grid-row-start: 1;
