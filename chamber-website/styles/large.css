@@ -25,6 +25,7 @@
     grid-template-columns: repeat(4, 1fr);
     font-size: 1em;
   }
+
   .action {
     height: unset;
     grid-row-start: 1;
