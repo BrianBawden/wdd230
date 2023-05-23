@@ -78,7 +78,6 @@ footer {
   color: #000;
 }
 
-
 /* main content */
 
 main {
@@ -116,7 +115,7 @@ main h3 {
   right: 25%;
 }
 
-#timp-flag img{
+#timp-flag img {
   max-width: 100%;
 }
 
@@ -164,6 +163,6 @@ footer a {
   font-size: x-large;
 }
 
-footer p{
+footer p {
   font-size: 1.4em;
 }
