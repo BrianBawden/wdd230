@@ -112,8 +112,8 @@ main h3 {
 
 .action section {
   position: absolute;
-  top: 10%;
-  right: 5%;
+  bottom: 5%;
+  right: 25%;
 }
 
 #timp-flag img{

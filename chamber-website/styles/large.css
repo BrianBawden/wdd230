@@ -33,6 +33,10 @@
     grid-column-start: 2;
     grid-column-end: 4;
   }
+  .action section {
+    top: 10%;
+    right: 40%;
+  }
   #timp-flag img {
     height: 100%;
     object-fit: cover;

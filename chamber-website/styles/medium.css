@@ -16,8 +16,8 @@
     grid-column-end: 5;
   }
   .action section {
-    top: 10%;
-    right: 15%;
+    bottom: 10%;
+    right: 40%;
   }
   #join-chamber {
     width: 10rem;
