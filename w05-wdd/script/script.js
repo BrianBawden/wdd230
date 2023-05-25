@@ -14,7 +14,7 @@ function addScripture(){
     newLi.setAttribute("class", newLi.textContent);
    
 
-
+    if(nextScript != ""){
     scriptList.appendChild(newLi);
     newLi.appendChild(delBtn);
 
@@ -22,4 +22,5 @@ function addScripture(){
         scriptList.removeChild(newLi);
     });
     document.querySelector("#add-chapter").value = '';
+}
 }
