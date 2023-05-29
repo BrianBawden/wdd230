@@ -3,6 +3,7 @@
 // A function to add a new scripture from the text input to ad-chapter list.
 function addScripture(){
 
+
     const scriptList = document.querySelector("#chapter-list");
     const newLi = document.createElement("li");
     const delBtn = document.createElement("button")
