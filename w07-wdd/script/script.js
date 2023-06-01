@@ -7,6 +7,6 @@ const imgsReal = ["images/img1.png", "images/img2.png", "images/img3.png", "imag
 for(let i = 0; i < numImg; i++){
     const imgLi = document.createElement("li");
 
-    imgLi.innerHTML = "<img src='https://placehold.jp/300x400.png'>";
+    imgLi.innerHTML = "<img src='https://placehold.jp/300x400.png'> ";
     imgs.appendChild(imgLi);
 }
