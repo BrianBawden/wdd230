@@ -19,7 +19,7 @@ const loadImages = (image) => {
 for(let i = 0; i < numImg; i++){
     const imgLi = document.createElement("li");
 
-    imgLi.innerHTML = "<img src=" + imgsReal[1] + " data-src=" + imgsReal[i] + "> ";
+    imgLi.innerHTML = "<img src='" + imgsReal[1] + "' data-src=" + imgsReal[i] + "> ";
     imgs.appendChild(imgLi);
 }
 
