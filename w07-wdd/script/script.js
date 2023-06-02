@@ -1,3 +1,5 @@
+
+// Code to load add li to html
 const imgs = document.querySelector(".imgs"); // unordered list
 const imgsReal = ["images/img1.jpg", 
                   "images/img2.jpg",
@@ -16,7 +18,34 @@ for(let i = 0; i < numImg; i++){
     imgs.appendChild(imgLi);
 }; 
 
-let imagesToLoad = document.querySelectorAll("img[data-src]");
+
+
+// Code for progressive loading
+let callback = (entries, observer) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+    });
+};
+
+let options = {
+    root: document.querySelector(".imgs_row"),
+    rootMargin: "0px",
+    threshold: 0.25,
+};
+  
+let observer = new IntersectionObserver(callback, options);
+
+let target = document.querySelectorAll("img[data-src]");
+
+target.forEach((pic) => {
+    observer.observe(pic);
+});
+
+
+
+
+
+// old stuff
 
 const imgOptions = {
     threshold: 0,
