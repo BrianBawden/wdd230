@@ -36,7 +36,6 @@ let callback = (entries, observer) => {
 
         if(entry.isIntersecting === true){
             const image = entry.target;
-            console.log(entry.target.id)
             loadImages(image);
             observer.unobserve(image);
         };
@@ -45,7 +44,7 @@ let callback = (entries, observer) => {
 let options = {
     root: null,
     rootMargin: "0px",
-    threshold: 1,
+    threshold: .25,
 };
   
 let observer = new IntersectionObserver(callback, options);
