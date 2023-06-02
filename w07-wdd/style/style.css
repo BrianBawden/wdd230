@@ -6,9 +6,12 @@ body{
     list-style: none;
 }
 
+img[data-src]{
+    filter: blur(3px);
+}
 .imgs li{
     margin: 1rem auto;
-    filter: blur(3px);
+    filter: blur(0px);
     width: 300px;
     object-fit: cover;
 }
