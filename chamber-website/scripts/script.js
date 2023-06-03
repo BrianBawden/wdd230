@@ -9,7 +9,7 @@ const imgsReal = [
   "discover-imgs/timp-flag.jpg",
   "discover-imgs/city-hall.jpg",
   "discover-imgs/timp.jpeg",
-  "discover-imgs/ut-valley.png",
+  "discover-imgs/ut-valley.PNG",
   "discover-imgs/swing.jpg",
   // "images/img6.jpg",
 ];
