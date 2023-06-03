@@ -166,3 +166,42 @@ footer a {
 footer p {
   font-size: 1.4em;
 }
+
+
+/*--------- CSS for discover.html -------------*/
+
+
+.discover {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-template-rows: repeat(6, 1fr);  */
+}
+
+.imgs_rows {
+  grid-column-start: 1;
+}
+
+.imgs li {
+  display: unset;
+  margin: unset;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 3rem 0;
+  font-size: x-large;
+}
+
+.imgs li:hover {
+  background-color: unset;
+}
+
+@media (min-width: 600px) {
+  .imgs img:hover {
+    border: 0.2rem solid blue;
+  }
+}
+
+@media (min-width: 1100px) {
+  .imgs {
+    margin: 0 10rem;
+  }
+}
