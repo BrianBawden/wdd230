@@ -11,7 +11,7 @@ const imgsReal = [
   "images/img3.jpg",
   "images/img4.jpg",
   "images/img5.jpg",
-  "images/img6.jpg",
+  // "images/img6.jpg",
 ];
 const numImg = imgsReal.length; // length used for the for loop
 
@@ -21,7 +21,7 @@ const imgsInfo = [
   "3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint corrupti, officia ab optio nostrum vel accusamus repellat repudiandae iste omnis facilis obcaecati accusantium debitis aspernatur? Minima, accusantium! Ducimus dolorem omnis voluptatem, modi, temporibus eligendi, odio laborum dolore vero aliquid ut saepe! Quaerat adipisci autem, eligendi non magnam nam fugit fuga.",
   "4Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint corrupti, officia ab optio nostrum vel accusamus repellat repudiandae iste omnis facilis obcaecati accusantium debitis aspernatur? Minima, accusantium! Ducimus dolorem omnis voluptatem, modi, temporibus eligendi, odio laborum dolore vero aliquid ut saepe! Quaerat adipisci autem, eligendi non magnam nam fugit fuga.",
   "5Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint corrupti, officia ab optio nostrum vel accusamus repellat repudiandae iste omnis facilis obcaecati accusantium debitis aspernatur? Minima, accusantium! Ducimus dolorem omnis voluptatem, modi, temporibus eligendi, odio laborum dolore vero aliquid ut saepe! Quaerat adipisci autem, eligendi non magnam nam fugit fuga.",
-  "6Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint corrupti, officia ab optio nostrum vel accusamus repellat repudiandae iste omnis facilis obcaecati accusantium debitis aspernatur? Minima, accusantium! Ducimus dolorem omnis voluptatem, modi, temporibus eligendi, odio laborum dolore vero aliquid ut saepe! Quaerat adipisci autem, eligendi non magnam nam fugit fuga.",
+  // "6Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint corrupti, officia ab optio nostrum vel accusamus repellat repudiandae iste omnis facilis obcaecati accusantium debitis aspernatur? Minima, accusantium! Ducimus dolorem omnis voluptatem, modi, temporibus eligendi, odio laborum dolore vero aliquid ut saepe! Quaerat adipisci autem, eligendi non magnam nam fugit fuga.",
 ];
 
 let imagesToLoad = document.querySelectorAll("img[data-src]");
