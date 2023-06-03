@@ -1,5 +1,4 @@
-document.querySelector("header").innerHTML =
-`
+document.querySelector("header").innerHTML = `
   <section class="banner">
   <h3>Wednesday Meeting this week</h3>
   <p>
@@ -30,9 +29,7 @@ document.querySelector("header").innerHTML =
 </div>
   `;
 
-
-  document.querySelector("footer").innerHTML =
-`
+document.querySelector("footer").innerHTML = `
   <div class="logo footer-logo">
   <img
     class="icon"
@@ -65,4 +62,4 @@ document.querySelector("header").innerHTML =
   </p>
   <p id="update">Last updated: <span id="modDate"></span></p>
 </div>
-  `
+  `;

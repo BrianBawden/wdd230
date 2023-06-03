@@ -1,7 +1,7 @@
 const now = new Date();
 
 const fullDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-	now
+  now
 );
 
 document.querySelector("#copyYear").innerHTML = getYear();
@@ -15,10 +15,9 @@ function getYear() {
 }
 
 function getMod() {
-    return new Date(document.lastModified);
-
+  return new Date(document.lastModified);
 }
 
-if (now.getDay() === 1 || now.getDay() === 2){
-  document.querySelector(".banner").style.display= "unset";
+if (now.getDay() === 1 || now.getDay() === 2) {
+  document.querySelector(".banner").style.display = "unset";
 }
