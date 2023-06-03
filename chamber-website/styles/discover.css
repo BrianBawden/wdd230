@@ -1,16 +1,23 @@
 main{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    /* grid-template-rows: repeat(6, 1fr);  */
 }
 
 .imgs_rows{
     grid-column-start: 1;
 }
 
+.imgs li{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
+}
+
 ul li{
     display: unset;
     margin: unset;
+    font-size: x-large;
 }
 
 ul li:hover{
