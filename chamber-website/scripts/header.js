@@ -1,5 +1,5 @@
 document.querySelector("header").innerHTML =
-  `
+`
   <section class="banner">
   <h3>Wednesday Meeting this week</h3>
   <p>
@@ -32,7 +32,7 @@ document.querySelector("header").innerHTML =
 
 
   document.querySelector("footer").innerHTML =
-  `
+`
   <div class="logo footer-logo">
   <img
     class="icon"
