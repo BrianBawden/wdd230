@@ -30,7 +30,7 @@ let imagesToLoad = document.querySelectorAll("img[data-src]");
 for(let i = 0; i < numImg; i++){
     const imgLi = document.createElement("li");
 
-    imgLi.innerHTML = "<img src='https://placehold.jp/300x400.png' data-src=" + imgsReal[i] + " id='img" + i + "'> <p class='imgsInfo' id='imgsInfo" + i + "'>" + imgsInfo[i] + "</p>";
+    imgLi.innerHTML = "<img src='https://placehold.jp/300x400.png' data-src=" + imgsReal[i] + " id='img" + i + "'> <p class='imgsInfo' id='imgsInfo" + i + " loading='lazy'>" + imgsInfo[i] + "</p>";
 
     imgs.appendChild(imgLi);
 }; 
