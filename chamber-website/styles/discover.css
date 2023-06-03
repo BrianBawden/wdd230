@@ -9,15 +9,13 @@ main{
 }
 
 .imgs li{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 3rem;
-}
-
-ul li{
     display: unset;
     margin: unset;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem 0;
     font-size: x-large;
+
 }
 
 ul li:hover{
