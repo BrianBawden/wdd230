@@ -1,0 +1,18 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.imgs_rows{
+    grid-column-start: 1;
+}
+
+ul li{
+    display: unset;
+    margin: unset;
+}
+
+ul li:hover{
+    background-color: unset;
+}
