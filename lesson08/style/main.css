@@ -24,6 +24,7 @@ caption {
 
 td {
   border: 1px solid #5e5b5b;
+  text-align: center;
 }
 
 tr:nth-child(even) {
