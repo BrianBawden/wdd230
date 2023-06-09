@@ -20,7 +20,7 @@ document.querySelector("header").innerHTML = `
   <li><a href="index.html">Home</a></li>
   <li><a href="discover.html">Discover</a></li>
   <li><a href="#">Directory</a></li>
-  <li><a href="#">Join</a></li>
+  <li><a href="join.html">Join</a></li>
   <li><a href="#">Contact</a></li>
 </ul>
 
