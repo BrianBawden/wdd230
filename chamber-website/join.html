@@ -15,14 +15,18 @@
     <header></header>
     <main>
         <form action="thankyou.html" method="get">
-            <fieldset>
+            <fieldset id="memberInfo">
                 <legend>Your Information</legend>
-                <label class="yourInfo" for="fname">First Name*<input id="fname" type="text" required></label>
-                <label class="yourInfo" for="lname">Last Name*<input id="lname" type="text" required></label>
-                <label class="yourInfo" for="btitle">Business Title<input id="btitle" type="text" pattern="[a-zA-Z\- ]{7,}" title="Please enter at least 7 characters consisting of alphabets, hyphens, and spaces."></label>
+                <label class="yourInfo" for="fName">First Name*<input id="fName" type="text" required></label>
+                <label class="yourInfo" for="lName">Last Name*<input id="lName" type="text" required></label>
+                <label class="yourInfo" for="bTitle">Business Title<input id="bTitle" type="text" pattern="[a-zA-Z\- ]{7,}" title="Please enter at least 7 characters consisting of alphabets, hyphens, and spaces."></label>
                 <p class="requirements">Business Title must be at least seven characters long and include only a-z, A-Z, '-', and ' '</p>
                 <label class="yourInfo" for="email">Email*<input id="email" type="text" required></label>
-
+                <label class="yourInfo" for="phone">Phone Number*<input id="phone" type="tel" required></label>
+                <label class="yourInfo" for="bName">Business Name*<input id="bName" type="text" required></label>
+            </fieldset>
+            <fieldset id="memberLevel">
+                
             </fieldset>
         </form>
     </main>
