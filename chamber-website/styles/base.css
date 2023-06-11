@@ -193,6 +193,22 @@ footer p {
   background-color: unset;
 }
 
+/********* join.html ************/
+
+
+#mainJoin{
+  display: block;
+}
+
+form{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+fieldset ul li:hover{
+  all: unset;
+}
+
 @media (min-width: 600px) {
   .imgs img:hover {
     border: 0.2rem solid blue;
