@@ -17,13 +17,18 @@
         <form action="thankyou.html" method="get">
             <fieldset id="memberInfo">
                 <legend>Your Information</legend>
-                <label class="yourInfoLabel">First Name*<input class="yourInfoInput" id="fName" type="text" required value="asdasdfas"></label>
-                <label class="yourInfoLabel">Last Name*<input class="yourInfoInput" id="lName" type="text" required value="asdasdfas"></label>
-                <label class="yourInfoLabel">Business Title<input class="yourInfoInput" id="bTitle" type="text" pattern="[a-zA-Z\- ]{7,}" title="Please enter at least 7 characters consisting of alphabets, hyphens, and spaces."></label>
-                <p class="requirements">Business Title must be at least seven characters long and include only a-z, A-Z, '-', and ' '</p>
-                <label class="yourInfoLabel">Email*<input class="yourInfoInput" id="email" type="text" placeholder="johnDoe@email.com" required value="asdasdfas@asfl.com"></label>
-                <label class="yourInfoLabel">Phone Number*<input class="yourInfoInput" id="phone" type="tel" required value="123456"></label>
-                <label class="yourInfoLabel">Business Name*<input class="yourInfoInput" id="bName" type="text" required value="asdasdfas"></label>
+                <label class="yourInfoLabel" for="fName">First Name*</label>
+                <input class="yourInfoInput" id="fName" type="text" required>
+                <label class="yourInfoLabel" for="lName">Last Name*</label>
+                <input class="yourInfoInput" id="lName" type="text" required>
+                <label class="yourInfoLabel" for="bTitle">Business Title</label>
+                <input class="yourInfoInput" id="bTitle" type="text" pattern="[a-zA-Z\- ]{7,}" title="Please enter at least 7 characters consisting of alphabets, hyphens, and spaces.">
+                <label class="yourInfoLabel" for="email">Email*</label>
+                <input class="yourInfoInput" id="email" type="text" placeholder="johnDoe@email.com" required>
+                <label class="yourInfoLabel" for="phone">Phone Number*</label>
+                <input class="yourInfoInput" id="phone" type="tel" required >
+                <label class="yourInfoLabel" for="bName">Business Name*</label>
+                <input class="yourInfoInput" id="bName" type="text" required>
             </fieldset>
             <fieldset id="memberLevel">
                 <legend>Member Levels</legend>
@@ -78,7 +83,7 @@
             </fieldset>
             <fieldset>
                 <legend>Business Description</legend>
-                <label class="yourInfoBiz"><input class="bizInfo" id="bAbout" type="textarea"></label>
+                <textarea id="aboutBiz"></textarea>
             </fieldset>
             <input type="hidden" id="getDate" name="getDate" value="">
             <input type="submit" id="joinBtn" value="Join">

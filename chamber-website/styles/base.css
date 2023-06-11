@@ -197,16 +197,45 @@ footer p {
 
 
 #mainJoin{
-  display: block;
+  display: flex;
 }
 
 form{
   max-width: 500px;
   margin: 0 auto;
 }
+fieldset{
+  border-radius: 2%;
+  padding: 2rem;
+}
 
 fieldset ul li:hover{
   all: unset;
+}
+
+.yourInfoBiz{
+  all: unset;
+}
+
+legend{
+  text-align: center;
+  padding: .5rem;
+}
+
+#memberInfo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  row-gap: 1rem;
+}
+
+.yourInfoLabel{
+  padding-left: 2rem;
+}
+
+
+#aboutBiz{
+  width: 450;
 }
 
 @media (min-width: 600px) {
