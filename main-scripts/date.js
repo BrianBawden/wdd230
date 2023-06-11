@@ -21,3 +21,9 @@ function getMod() {
 if (now.getDay() === 1 || now.getDay() === 2) {
   document.querySelector(".banner").style.display = "unset";
 }
+
+function getDate(){
+  console.log(fullDate);
+  return fullDate;
+
+}
