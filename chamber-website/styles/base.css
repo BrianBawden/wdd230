@@ -44,8 +44,7 @@ header ul li a {
   text-decoration: none;
   color: white;
 }
-ul li {
-  /* background-color: #7299c8; */
+.response li {
   padding: 2px 10px;
   display: none;
   list-style: none;
