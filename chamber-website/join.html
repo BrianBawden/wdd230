@@ -15,7 +15,7 @@
     <header></header>
     <main id="mainJoin">
         <form action="thankyou.html" method="get">
-            <fieldset id="memberInfo">
+            <fieldset class="field" id="memberInfo">
                 <legend>Your Information</legend>
                 <label class="yourInfoLabel" for="fName">First Name*</label>
                 <input class="yourInfoInput" id="fName" type="text" required>
@@ -30,7 +30,7 @@
                 <label class="yourInfoLabel" for="bName">Business Name*</label>
                 <input class="yourInfoInput" id="bName" type="text" required>
             </fieldset>
-            <fieldset id="memberLevel">
+            <fieldset class="field" id="memberLevel">
                 <legend>Member Levels</legend>
                 <div id="np">
                     <label class="memLvlLbl"><input class="memLvlRdo" type="radio" name="memLvl" value="np">Nonprofit: free</label>
@@ -45,9 +45,9 @@
                     </fieldset>
                 </div>
                 <div id="bronze"></div>
-                    <label class="memLvlLbl"><input class="memLvlRdo" type="radio" name="memLvl" value="bronze">Bronze: $100</label>
+                    <label  class="memLvlLbl"><input class="memLvlRdo" type="radio" name="memLvl" value="bronze">Bronze: $100</label>
                     <fieldset id="bronzeDef">
-                        <legend>Bronze Level</legend>
+                        <legend id="bronzeLbl">Bronze Level</legend>
                         <ul>
                             <li>All Nonprofit level benefits</li>
                             <li>Online marketing guide</li>
@@ -70,6 +70,7 @@
                 <div id="gold">
                     <label class="memLvlLbl"><input class="memLvlRdo" type="radio" name="memLvl" value="gold">Gold: $500</label>
                     <fieldset id="goldDef">
+                        <legend>Gold Level</legend>
                         <ul>
                             <li>All silver level benefits</li>
                             <li>Priority ad placement in news letter</li>
@@ -81,11 +82,11 @@
                     </fieldset>
                 </div>
             </fieldset>
-            <fieldset>
+            <fieldset class="field" >
                 <legend>Business Description</legend>
                 <textarea id="aboutBiz"></textarea>
             </fieldset>
-            <input type="hidden" id="getDate" name="getDate" value="">
+            <input type="hidden" id="getDate" name="getDate" value=""> <!-- The date is set in the main-script/date.js file by an eventListener. -->
             <input type="submit" id="joinBtn" value="Join">
         </form>
     </main>

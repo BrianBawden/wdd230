@@ -201,12 +201,15 @@ footer p {
 }
 
 form{
-  max-width: 500px;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 fieldset{
   border-radius: 2%;
   padding: 2rem;
+}
+
+.field{
+  margin-top: 1rem;
 }
 
 fieldset ul li:hover{
@@ -233,11 +236,20 @@ legend{
   padding-left: 2rem;
 }
 
-
-#aboutBiz{
-  width: 450;
+#memberLevel{
+  display: grid;
+  row-gap: 1rem;
+  text-align: left;
+}
+.memLvlRdo{
+  margin-right: .5rem;
 }
 
+#joinBtn{
+  margin-top: 2rem;
+  width: 5rem;
+  border-radius: .21rem;
+}
 @media (min-width: 600px) {
   .imgs img:hover {
     border: 0.2rem solid blue;
