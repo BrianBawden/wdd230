@@ -1,5 +1,5 @@
 const now = new Date();
-
+const joinBtn = document.querySelector("#joinBtn");
 const fullDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
   now
 );
@@ -22,8 +22,10 @@ if (now.getDay() === 1 || now.getDay() === 2) {
   document.querySelector(".banner").style.display = "unset";
 }
 
+joinBtn.addEventListener("click", getDate)
+
 function getDate(){
-  console.log(fullDate);
-  return fullDate;
+  console.log(now);
+  document.querySelector("#getDate").value = now;
 
 }
