@@ -22,7 +22,7 @@ async function getProphetData() {
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
 
       // build p content to show the birth date and place of birth.
-      p.innerHTML = `Date of Birth ${prophet.birthdate}<br>Place of Birth ${prophet.birthplace}`;
+      p.innerHTML = `Date of Birth: ${prophet.birthdate}<br>Place of Birth: ${prophet.birthplace}`;
     //   p.textContent = `Place of Birth ${prophet.birthplace}`;
   
       // Build the image portrait by setting all the relevant attribute
