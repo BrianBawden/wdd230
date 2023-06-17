@@ -2,7 +2,7 @@
     {
         "name": "Chiropractic Care",
         "address": "123 E Main St Orem UT 84057",
-        "phone": "8015552342",
+        "phone": "801-555-2342",
         "website": "www.chirocare.com",
         "icon": "directory/icons/body.png",
         "memberLvl": "bronze"
@@ -10,7 +10,7 @@
     {
         "name": "Car Wash Express",
         "address": "432 N State Street Orem UT 84057",
-        "phone": "8015559349",
+        "phone": "801-555-9349",
         "website": "www.expresscleancar.com",
         "icon": "directory/icons/car-service.png",
         "memberLvl": "gold"
@@ -18,7 +18,7 @@
     {
         "name": "Squeaky Clean",
         "address": "4221 E 4000 S Orem UT 84056",
-        "phone": "8015554523",
+        "phone": "801-555-4523",
         "website": "www.squeakyclean.com",
         "icon": "directory/icons/cleaning.png",
         "memberLvl": "bronze"
@@ -26,7 +26,7 @@
     {
         "name": "The Knife and Fork",
         "address": "8493 S State Street Orem UT 84057",
-        "phone": "8015558322",
+        "phone": "801-555-8322",
         "website": "www.knifeandfork.com",
         "icon": "directory/icons/dish.png",
         "memberLvl": "silver"
@@ -34,7 +34,7 @@
     {
         "name": "Mans Best Friend ",
         "address": "2322 N 700 W Orem UT 84057",
-        "phone": "8015550800",
+        "phone": "801-555-0800",
         "website": "www.k9friends.com",
         "icon": "directory/icons/dog-training.png",
         "memberLvl": "bronze"
@@ -42,7 +42,7 @@
     {
         "name": "The Iron Pump",
         "address": "2113 S 1400 W Orem UT 84057",
-        "phone": "8015551115",
+        "phone": "801-555-1115",
         "website": "www.pumpiron.com",
         "icon": "directory/icons/dumbbell.png",
         "memberLvl": "gold"
@@ -50,7 +50,7 @@
     {
         "name": "Tacos on Wheels",
         "address": "1334 N Center St Orem UT 84057",
-        "phone": "8015557773",
+        "phone": "801-555-7773",
         "website": "www.rollingtacos.com",
         "icon": "directory/icons/food-truck.png",
         "memberLvl": "bronze"
@@ -58,7 +58,7 @@
     {
         "name": "Bower & Johnson Law",
         "address": "9932 W 100 N Orem UT 84057",
-        "phone": "8015559339",
+        "phone": "801-555-9339",
         "website": "www.bowerandjohnson.com",
         "icon": "directory/icons/law.png",
         "memberLvl": "gold"
@@ -66,7 +66,7 @@
     {
         "name": "Lawn Clipper",
         "address": "122 S 1600 W Orem UT 84057",
-        "phone": "8015552299",
+        "phone": "801-555-2299",
         "website": "www.lawnclipper.com",
         "icon": "directory/icons/grass.png",
         "memberLvl": "bronze"
