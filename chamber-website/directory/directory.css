@@ -37,3 +37,41 @@ section.dir-section{
     margin-top: 1rem;
     width: 5rem;
 }
+
+/* style for list button */
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: unset;
+}
+
+.list .dir-section{
+    max-width: unset;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: .25rem;
+    border-radius: unset;
+
+}
+
+.list .dir-section > *{
+    margin: 0 1rem;
+}
+
+.list .dir-section .dir-icon{
+    display: none;
+}
+
+.list .dir-section h3{
+    /* font-size: 1rem; */
+    margin: auto;
+}
+
+.list p{
+    padding: .5rem 0;
+}
+
+.list .dir-section:nth-child(even){
+    background-color: #3973bf4b;
+}

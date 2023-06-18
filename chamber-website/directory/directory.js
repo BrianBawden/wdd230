@@ -2,7 +2,7 @@
 const biz = 'directory/data.json';
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-
+const display = document.querySelector(".cards");
 let bizData;
 async function getBiz(){
     const response = await fetch(biz);
@@ -14,12 +14,11 @@ async function getBiz(){
 
 const displayBiz = (businesses) => {
     const cards = document.querySelector("div.cards");
-
     // for each biz create their content.
     businesses.forEach((business) => {
         let card = document.createElement("section");
         let icon = document.createElement('img');
-        let bizName = document.createElement('h2');
+        let bizName = document.createElement('h3');
         let bizInfo = document.createElement('p');
 
         card.setAttribute('class', 'dir-section')
@@ -42,8 +41,6 @@ const displayBiz = (businesses) => {
 }
 
 gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
 	display.classList.remove("list");
 });
 
@@ -51,7 +48,6 @@ listbutton.addEventListener("click", showList); // example using defined functio
 
 function showList() {
 	display.classList.add("list");
-	display.classList.remove("grid");
 }
 
 getBiz();
