@@ -261,3 +261,86 @@ legend{
     margin: 0 10rem;
   }
 }
+
+/********* directory  ***********/
+
+
+.dir-main{
+  display: block;
+}
+
+.btnView{
+  background-color: #3973bf;
+  border: none;
+  padding: .5rem;
+  border-radius: .4rem;
+  margin: 1rem;
+  box-shadow: 5px 8px;
+}
+
+.btnView:hover{
+  border: solid #000 3px;
+  color: #fff;
+}
+
+section.dir-section{
+  max-width: 400px;
+  border: solid #3973bf 2px;
+  margin: 1rem auto;
+  border-radius: .4rem;
+  padding: 1rem;
+}
+
+/* grid layout for cards */
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1rem;
+}
+
+
+/* set size of icon from json file */
+.dir-icon{
+  margin-top: 1rem;
+  width: 5rem;
+}
+
+/* style for list button */
+.list{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: unset;
+  max-width: 700px;
+}
+
+.list .dir-section{
+  max-width: unset;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: .25rem;
+  border-radius: unset;
+
+}
+
+.list .dir-section > *{
+  margin: 0 1rem;
+}
+
+.list .dir-section .dir-icon{
+  display: none;
+}
+
+.list .dir-section h3{
+  /* font-size: 1rem; */
+  margin: auto;
+}
+
+.list p{
+  padding: .5rem 0;
+}
+
+.list .dir-section:nth-child(even){
+  background-color: #3973bf4b;
+}
