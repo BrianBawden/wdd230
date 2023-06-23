@@ -21,7 +21,8 @@ document.querySelector("header").innerHTML = `
   <li><a href="discover.html">Discover</a></li>
   <li><a href="directory.html">Directory</a></li>
   <li><a href="join.html">Join</a></li>
-  <li><a href="#">Contact</a></li>
+  <li><a href="#contact">Contact</a></li>
+  
 </ul>
 
 <div class="date">
@@ -48,7 +49,7 @@ document.querySelector("footer").innerHTML = `
   </p>
   <p>Pleasant Grove, UT 84062</p>
 </div>
-<div class="footer-contact">
+<div id="contact" class="footer-contact">
   <p>info@timp-chamber.org</p>
   <p>(801)555-1234</p>
   <div class="social">
