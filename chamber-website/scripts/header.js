@@ -61,6 +61,6 @@ document.querySelector("footer").innerHTML = `
     &copy; <span id="copyYear"></span> .:|:.Brian Bawden.:|:. Canton, GA
   </p>
   <p id="update">Last updated: <span id="modDate"></span></p>
-  <p style="font-size: x-small;">"Weather data provided by OpenWeatherMap <span><a href="https://openweathermap.org">https://openweathermap.org</a></span>"</p>
+  <p id="weatherAPI">Weather data provided by OpenWeatherMap <span><a href="https://openweathermap.org">https://openweathermap.org</a></span></p>
 </div>
   `;

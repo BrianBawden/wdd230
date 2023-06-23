@@ -49,7 +49,6 @@ function displayResults(wData) {
   tempDoc.innerHTML = getTemp.toFixed(0);
   wCondition.innerHTML = wData.weather[0].description;
   wIcon.setAttribute("src", iconSrc);
-  wIcon.setAttribute("alt", iconAlt);
   windSpeedDoc.innerHTML = windSpeed;
 
   if ((getTemp <= 50) & (windSpeed > 3)) {

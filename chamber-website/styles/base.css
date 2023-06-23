@@ -159,11 +159,19 @@ main h3 {
 footer a {
   color: white;
   padding: 2px 10px;
-  font-size: x-large;
+  /* font-size: x-large; */
 }
 
 footer p {
   font-size: 1.4em;
+}
+
+#weatherAPI{
+  font-size: x-small;
+}
+
+#weatherAPI a{
+  padding: unset;
 }
 
 
