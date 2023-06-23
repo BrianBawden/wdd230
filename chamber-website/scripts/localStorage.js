@@ -17,5 +17,9 @@ const millDiff = newDate - lastVisit;
 
 const numDays = millDiff / millPerDay;
 
+try{
 document.querySelector("#day").textContent = numDays.toFixed(0);
+} catch (error){
+    console.log("id day not found" + error);
+}
 lastVisit = localStorage.setItem("visitDate", getNow.getTime());

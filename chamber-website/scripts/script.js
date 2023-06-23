@@ -39,8 +39,11 @@ for (let i = 0; i < numImg; i++) {
     " loading='lazy'>" +
     imgsInfo[i] +
     "</p>";
-
-  imgs.appendChild(imgLi);
+  try{
+    imgs.appendChild(imgLi);
+  } catch(error){
+    console.log("class imgs not found: " + error);
+  }
 }
 
 const loadImages = (image) => {
