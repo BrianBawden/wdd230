@@ -1,19 +1,12 @@
-
-const biz = 'directory/data.json';
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector(".cards");
-const arrayGold = [];
-let dirLength;
-let bizData;
 
 // ************* get json **********************
 async function getBiz(){
     const response = await fetch(biz);
     const data = await response.json();
     displayBiz(data.bizz);
-    const hiLi = highlightBiz(data.bizz);
-    console.log(arrayGold);
 }
 
 
@@ -60,32 +53,6 @@ function showList() {
 	display.classList.add("list");
 }
 
-// ***************** pick random gold/silver card ***************
-
-function goldRandom(data) {
-    dirLength = data.length;
-    let dirRandom = Math.floor(Math.random() * (dirLength));
-    let member = data[dirRandom].memberLvl;
-
-
-    if ((member === "gold" || member === "silver") && !arrayGold.includes(data[dirRandom])) {
-        let hiObj = data[dirRandom];
-        return hiObj;
-       }
-    else{
-        return goldRandom(data);
-    };
-}
-
-function highlightBiz(data) {
-    if (arrayGold.length != 3) {
-        let hiObj = goldRandom(data);
-        arrayGold.push(hiObj);
-        highlightBiz(data);
-    } else {
-        return arrayGold;
-    }
-}
 
 // *************** call function to start program *******************
 getBiz();
