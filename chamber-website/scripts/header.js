@@ -53,8 +53,8 @@ document.querySelector("footer").innerHTML = `
   <p>info@timp-chamber.org</p>
   <p>(801)555-1234</p>
   <div class="social">
-    <a href="#">Facebook</a>
-    <a href="#">Linked In</a>
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    <a href="https://www.linkedin.com/" target="_blank">Linked In</a>
   </div>
 </div>
 <div class="footer-copyright">
@@ -62,6 +62,6 @@ document.querySelector("footer").innerHTML = `
     &copy; <span id="copyYear"></span> .:|:.Brian Bawden.:|:. Canton, GA
   </p>
   <p id="update">Last updated: <span id="modDate"></span></p>
-  <p id="weatherAPI">Weather data provided by OpenWeatherMap <span><a href="https://openweathermap.org">https://openweathermap.org</a></span></p>
+  <p id="weatherAPI">Weather data provided by OpenWeatherMap <span><a href="https://openweathermap.org" target="_blank">https://openweathermap.org</a></span></p>
 </div>
   `;
