@@ -49,7 +49,7 @@ header ul li a {
   display: none;
   list-style: none;
   font-size: 1.4em;
-  margin: 0.4em 4em;
+  margin: 0.4em 2em;
 }
 ul li:hover {
   background-color: blue;
@@ -351,4 +351,11 @@ section.dir-section{
 
 .list .dir-section:nth-child(even){
   background-color: #3973bf4b;
+}
+
+
+/********** Contact page styling **************/
+
+#contact .field{
+  width: 95%;
 }
