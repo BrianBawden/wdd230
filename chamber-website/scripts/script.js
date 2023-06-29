@@ -122,21 +122,42 @@ function highlightBiz(data) {
     }
 }
 
+
 function showHighlight(company){
   let spot1Name = document.querySelector("#spot1Name");
   let spot1Icon = document.querySelector("#spot1Icon");
   let spot1Phone = document.querySelector("#spot1Phone");
   let spot1Web = document.querySelector("#spot1Web");
-
+  try{
   spot1Name.textContent = company[0].name;
   spot1Icon.setAttribute('src', company[0].icon);
   spot1Icon.setAttribute('alt', `Logo for ${company[0].name}.`);
   spot1Phone.textContent = company[0].phone;
   spot1Web.textContent = company[0].website;
-
   
-}
+  let spot2Name = document.querySelector("#spot2Name");
+  let spot2Icon = document.querySelector("#spot2Icon");
+  let spot2Phone = document.querySelector("#spot2Phone");
+  let spot2Web = document.querySelector("#spot2Web");
 
+  spot2Name.textContent = company[1].name;
+  spot2Icon.setAttribute('src', company[1].icon);
+  spot2Icon.setAttribute('alt', `Logo for ${company[1].name}.`);
+  spot2Phone.textContent = company[1].phone;
+  spot2Web.textContent = company[1].website;
+
+  let spot3Name = document.querySelector("#spot3Name");
+  let spot3Icon = document.querySelector("#spot3Icon");
+  let spot3Phone = document.querySelector("#spot3Phone");
+  let spot3Web = document.querySelector("#spot3Web");
+
+  spot3Name.textContent = company[2].name;
+  spot3Icon.setAttribute('src', company[2].icon);
+  spot3Icon.setAttribute('alt', `Logo for ${company[2].name}.`);
+  spot3Phone.textContent = company[2].phone;
+  spot3Web.textContent = company[2].website;
+} catch(error) {}
+}
 // *************** call function to start program *******************
 getBiz();
 
