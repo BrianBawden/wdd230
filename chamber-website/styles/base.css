@@ -356,6 +356,15 @@ section.dir-section{
 
 /********** Contact page styling **************/
 
+#contact{
+display: grid;
+grid-template-row: 1fr 1fr;
+place-items: center;
+gap: .5em;
+}
+
 #contact .field{
-  width: 95%;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
