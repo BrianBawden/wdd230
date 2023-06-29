@@ -42,7 +42,6 @@ for (let i = 0; i < numImg; i++) {
   try{
     imgs.appendChild(imgLi);
   } catch(error){
-    console.log("class imgs not found: " + error);
   }
 }
 

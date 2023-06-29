@@ -23,9 +23,7 @@ if (now.getDay() === 1 || now.getDay() === 2) {
 }
 try{
   joinBtn.addEventListener("click", getDate)
-} catch(error){
-  console.log("id joinBtn not found" + error);
-}
+} catch(error){}
 
 function getDate(){
   console.log(now);
