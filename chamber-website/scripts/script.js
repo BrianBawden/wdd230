@@ -92,7 +92,7 @@ async function getBiz(){
     const response = await fetch(biz);
     const data = await response.json();
     const hiLi = highlightBiz(data.bizz);
-    console.log(arrayGold);
+    showHighlight(arrayGold);
 }
 
 // ***************** pick random gold/silver card ***************
@@ -122,5 +122,21 @@ function highlightBiz(data) {
     }
 }
 
+function showHighlight(company){
+  let spot1Name = document.querySelector("#spot1Name");
+  let spot1Icon = document.querySelector("#spot1Icon");
+  let spot1Phone = document.querySelector("#spot1Phone");
+  let spot1Web = document.querySelector("#spot1Web");
+
+  spot1Name.textContent = company[0].name;
+  spot1Icon.setAttribute('src', company[0].icon);
+  spot1Icon.setAttribute('alt', `Logo for ${company[0].name}.`);
+  spot1Phone.textContent = company[0].phone;
+  spot1Web.textContent = company[0].website;
+
+  
+}
+
 // *************** call function to start program *******************
 getBiz();
+
