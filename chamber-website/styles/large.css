@@ -41,6 +41,10 @@
     height: 100%;
     object-fit: cover;
   }
+  
+  .imgs #img0, #img1{
+    width: 30%;
+  }
   .event {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -111,12 +115,11 @@
 
 #contact{
   display: grid;
-  grid-template-columns: 1fr 1fr;
   place-items: center;
   }
   
   #contact .field{
-    width: 80%;
+    width: 40%;
     padding: 2rem;
     margin: 2rem;
     text-align: center;

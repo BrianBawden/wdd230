@@ -83,7 +83,6 @@ main {
   max-width: 100%;
   background-color: #d9e1e8;
   padding: 0.4em 0.4em;
-  font-size: x-large;
 }
 
 hr {
@@ -192,9 +191,13 @@ footer p {
   display: unset;
   margin: unset;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 3rem 0;
   font-size: x-large;
+}
+
+.imgs #img0, #img1{
+  width: 90%;
 }
 
 .imgs li:hover {
@@ -351,4 +354,11 @@ section.dir-section{
 
 .list .dir-section:nth-child(even){
   background-color: #3973bf4b;
+}
+
+/********** contact page  ***********/
+
+#contact{
+  display: grid;
+  grid-template-columns: 1fr;
 }
