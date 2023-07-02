@@ -42,7 +42,7 @@ header {
 }
 header ul li a {
   text-decoration: none;
-  color: white;
+  color: #CCCCCC;
 }
 .response li {
   padding: 2px 10px;
@@ -156,7 +156,7 @@ main h3 {
 
 /* footer content */
 footer a {
-  color: white;
+  color: #F5F5F5;
   padding: 2px 10px;
   /* font-size: x-large; */
 }
