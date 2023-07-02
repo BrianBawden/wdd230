@@ -14,85 +14,125 @@
   <body>
     <header></header>
     <main id="mainJoin">
-        <form action="thankyou.html" method="get">
-            <fieldset class="field" id="memberInfo">
-                <legend>Your Information</legend>
-                <label class="yourInfoLabel" for="fName">First Name*</label>
-                <input class="yourInfoInput" id="fName" type="text" required>
-                <label class="yourInfoLabel" for="lName">Last Name*</label>
-                <input class="yourInfoInput" id="lName" type="text" required>
-                <label class="yourInfoLabel" for="bTitle">Business Title</label>
-                <input class="yourInfoInput" id="bTitle" type="text" pattern="[a-zA-Z\- ]{7,}" title="Please enter at least 7 characters consisting of alphabets, hyphens, and spaces.">
-                <label class="yourInfoLabel" for="email">Email*</label>
-                <input class="yourInfoInput" id="email" type="text" placeholder="johnDoe@email.com" required>
-                <label class="yourInfoLabel" for="phone">Phone Number*</label>
-                <input class="yourInfoInput" id="phone" type="tel" required >
-                <label class="yourInfoLabel" for="bName">Business Name*</label>
-                <input class="yourInfoInput" id="bName" type="text" required>
+      <form action="thankyou.html" method="get">
+        <fieldset class="field" id="memberInfo">
+          <legend>Your Information</legend>
+          <label class="yourInfoLabel" for="fName">First Name*</label>
+          <input class="yourInfoInput" id="fName" type="text" required />
+          <label class="yourInfoLabel" for="lName">Last Name*</label>
+          <input class="yourInfoInput" id="lName" type="text" required />
+          <label class="yourInfoLabel" for="bTitle">Business Title</label>
+          <input
+            class="yourInfoInput"
+            id="bTitle"
+            type="text"
+            pattern="[a-zA-Z\- ]{7,}"
+            title="Please enter at least 7 characters consisting of alphabets, hyphens, and spaces."
+          />
+          <label class="yourInfoLabel" for="email">Email*</label>
+          <input
+            class="yourInfoInput"
+            id="email"
+            type="text"
+            placeholder="johnDoe@email.com"
+            required
+          />
+          <label class="yourInfoLabel" for="phone">Phone Number*</label>
+          <input class="yourInfoInput" id="phone" type="tel" required />
+          <label class="yourInfoLabel" for="bName">Business Name*</label>
+          <input class="yourInfoInput" id="bName" type="text" required />
+        </fieldset>
+        <fieldset class="field" id="memberLevel">
+          <legend>Member Levels</legend>
+          <div id="np">
+            <label class="memLvlLbl"
+              ><input
+                class="memLvlRdo"
+                type="radio"
+                name="memLvl"
+                value="np"
+              />Nonprofit: free</label
+            >
+            <fieldset id="npDef">
+              <legend>Nonprofit Level</legend>
+              <ul>
+                <li>Business best practices guide</li>
+                <li>Subscription to monthly news letter</li>
+                <li>Access to workshops</li>
+                <li>Participation in referral program</li>
+              </ul>
             </fieldset>
-            <fieldset class="field" id="memberLevel">
-                <legend>Member Levels</legend>
-                <div id="np">
-                    <label class="memLvlLbl"><input class="memLvlRdo" type="radio" name="memLvl" value="np">Nonprofit: free</label>
-                    <fieldset id="npDef">
-                        <legend>Nonprofit Level</legend>
-                    <ul>
-                        <li>Business best practices guide</li>
-                        <li>Subscription to monthly news letter</li>
-                        <li>Access to workshops</li>
-                        <li>Participation in referral program</li>
-                    </ul>
-                    </fieldset>
-                </div>
-                <div id="bronze"></div>
-                    <label  class="memLvlLbl"><input class="memLvlRdo" type="radio" name="memLvl" value="bronze">Bronze: $100</label>
-                    <fieldset id="bronzeDef">
-                        <legend id="bronzeLbl">Bronze Level</legend>
-                        <ul>
-                            <li>All Nonprofit level benefits</li>
-                            <li>Online marketing guide</li>
-                            <li>Access to mentor program</li>
-                            <li>Discount for workshops</li>
-                        </ul>
-                    </fieldset>
-                <div id="silver">
-                <label class="memLvlLbl"><input class="memLvlRdo" type="radio" name="memLvl" value="silver">Silver: $250</label>
-                    <fieldset id="silverDef">
-                        <legend>Silver Level</legend>
-                        <ul>
-                            <li>All bronze level benefits</li>
-                            <li>Access to online training tools</li>
-                            <li>Free admission to all workshops</li>
-                            <li>Free templates, checklists, and eBooks</li>
-                        </ul>
-                    </fieldset>
-                </div>
-                <div id="gold">
-                    <label class="memLvlLbl"><input class="memLvlRdo" type="radio" name="memLvl" value="gold">Gold: $500</label>
-                    <fieldset id="goldDef">
-                        <legend>Gold Level</legend>
-                        <ul>
-                            <li>All silver level benefits</li>
-                            <li>Priority ad placement in news letter</li>
-                            <li>Board access pass</li>
-                            <li>Chamber staff enhanced business directory</li>
-                            <li>Logo listed as supporting sponsor</li>
-
-                        </ul>
-                    </fieldset>
-                </div>
+          </div>
+          <div id="bronze"></div>
+          <label class="memLvlLbl"
+            ><input
+              class="memLvlRdo"
+              type="radio"
+              name="memLvl"
+              value="bronze"
+            />Bronze: $100</label
+          >
+          <fieldset id="bronzeDef">
+            <legend id="bronzeLbl">Bronze Level</legend>
+            <ul>
+              <li>All Nonprofit level benefits</li>
+              <li>Online marketing guide</li>
+              <li>Access to mentor program</li>
+              <li>Discount for workshops</li>
+            </ul>
+          </fieldset>
+          <div id="silver">
+            <label class="memLvlLbl"
+              ><input
+                class="memLvlRdo"
+                type="radio"
+                name="memLvl"
+                value="silver"
+              />Silver: $250</label
+            >
+            <fieldset id="silverDef">
+              <legend>Silver Level</legend>
+              <ul>
+                <li>All bronze level benefits</li>
+                <li>Access to online training tools</li>
+                <li>Free admission to all workshops</li>
+                <li>Free templates, checklists, and eBooks</li>
+              </ul>
             </fieldset>
-            <fieldset class="field" >
-                <legend>Business Description</legend>
-                <textarea id="aboutBiz"></textarea>
+          </div>
+          <div id="gold">
+            <label class="memLvlLbl"
+              ><input
+                class="memLvlRdo"
+                type="radio"
+                name="memLvl"
+                value="gold"
+              />Gold: $500</label
+            >
+            <fieldset id="goldDef">
+              <legend>Gold Level</legend>
+              <ul>
+                <li>All silver level benefits</li>
+                <li>Priority ad placement in news letter</li>
+                <li>Board access pass</li>
+                <li>Chamber staff enhanced business directory</li>
+                <li>Logo listed as supporting sponsor</li>
+              </ul>
             </fieldset>
-            <input type="hidden" id="getDate" name="getDate" value=""> <!-- The date is set in the main-script/date.js file by an eventListener. -->
-            <input type="submit" id="joinBtn" value="Join">
-        </form>
+          </div>
+        </fieldset>
+        <fieldset class="field">
+          <legend>Business Description</legend>
+          <textarea id="aboutBiz"></textarea>
+        </fieldset>
+        <input type="hidden" id="getDate" name="getDate" value="" />
+        <!-- The date is set in the main-script/date.js file by an eventListener. -->
+        <input type="submit" id="joinBtn" value="Join" />
+      </form>
     </main>
     <footer></footer>
 
-    <script src="../chamber-website/scripts/header.js"></script> 
+    <script src="../chamber-website/scripts/header.js"></script>
     <script src="../main-scripts/date.js"></script>
     <script src="scripts/script.js"></script>
     <!-- <script src="scripts/windchill.js"></script> -->

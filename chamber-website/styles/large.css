@@ -41,8 +41,9 @@
     height: 100%;
     object-fit: cover;
   }
-  
-  .imgs #img0, #img1{
+
+  .imgs #img0,
+  #img1 {
     width: 30%;
   }
   .event {
@@ -113,28 +114,29 @@
   }
 }
 
-#contact{
+#contact {
   display: grid;
   place-items: center;
-  }
-  
-  #contact .field{
-    width: 40%;
-    padding: 2rem;
-    margin: 2rem;
-    text-align: center;
-  }
-  
-  #contact .field-content{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: .51rem;
-  }
-  
-  #contact input{
-    margin-bottom:.5rem;
-  }
-  
-  #chamber-info p, h3{
-    margin: .5rem 0;
-  }
+}
+
+#contact .field {
+  width: 40%;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+#contact .field-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.51rem;
+}
+
+#contact input {
+  margin-bottom: 0.5rem;
+}
+
+#chamber-info p,
+h3 {
+  margin: 0.5rem 0;
+}
