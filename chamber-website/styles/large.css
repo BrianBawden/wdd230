@@ -87,10 +87,12 @@
     grid-template-columns: 1fr;
   }
   #spot1 {
+    padding-top: 70px;
     grid-row-start: 1;
     grid-row-end: 2;
   }
   #spot2 {
+    padding-bottom: 50px;
     grid-row-start: 2;
     grid-row-end: 3;
   }
@@ -102,8 +104,34 @@
   #spot1,
   #spot2,
   #spot3 {
-    width: 85%;
     margin-left: 1em;
     margin-bottom: -20px;
   }
 }
+
+#contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  }
+  
+  #contact .field{
+    width: 80%;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  #contact .field-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .51rem;
+  }
+  
+  #contact input{
+    margin-bottom:.5rem;
+  }
+  
+  #chamber-info p, h3{
+    margin: .5rem 0;
+  }

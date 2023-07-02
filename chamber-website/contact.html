@@ -14,28 +14,31 @@
   <body>
     <header></header>
     <main id="contact">
-        <fieldset class="field" id="contact">
-            <legend>Contact Form</legend>
-            <label for="name">Name *</label>
-            <input class="contactInfo" id="name" type="text" required>
-            <label for="email">Email *</label>
-            <input class="contactInfo" id="email" type="email" required>
-            <p>Comment</p>
-            <textarea name="comment" id="comment" cols="20" rows="10"></textarea>
-            <button>Contact Us</button>
-        </fieldset>
-
-        <fieldset class="field" id="chamber-info">
-            <legend>Chamber Info</legend>
-            <h2>Contact Us</h2>
-            <h3>Address</h3>
-            <p>70 S 100 E <br> Pleasant Grove, UT 84062</p>
-            <h3>Phone</h3>
-            <p>(801)555-1234</p>
-            <h3>Email</h3>
-            <p>info@timp-chamber.org</p>
-
-        </fieldset>
+      <fieldset class="field" id="form">
+        <legend>Contact Form</legend>
+        <div class="field-content">
+          <label for="name">Name *</label>
+          <input class="contactInfo" id="name" type="text" required>
+          <label for="email">Email *</label>
+          <input class="contactInfo" id="email" type="email" required>
+          <textarea name="comment" id="comment" cols="20" rows="10" placeholder="Enter your comment."></textarea>
+          <button>Contact Us</button>
+        </div>
+      </fieldset>
+      
+      <fieldset class="field" id="chamber-info">
+        <legend>Chamber Info</legend>
+        <div class="field-content">
+          <h2>Contact Us</h2>
+          <h3>Address</h3>
+          <p>70 S 100 E <br> Pleasant Grove, UT 84062</p>
+          <h3>Phone</h3>
+          <p>(801)555-1234</p>
+          <h3>Email</h3>
+          <p>info@timp-chamber.org</p>
+        </div>
+      </fieldset>
+      
     </main>
     <footer></footer>
 

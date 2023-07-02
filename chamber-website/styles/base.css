@@ -352,19 +352,3 @@ section.dir-section{
 .list .dir-section:nth-child(even){
   background-color: #3973bf4b;
 }
-
-
-/********** Contact page styling **************/
-
-#contact{
-display: grid;
-grid-template-row: 1fr 1fr;
-place-items: center;
-gap: .5em;
-}
-
-#contact .field{
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
