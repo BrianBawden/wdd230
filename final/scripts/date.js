@@ -8,7 +8,7 @@ document.querySelector("#copyYear").innerHTML = getYear();
 
 document.querySelector("#modDate").innerHTML = getMod();
 
-document.querySelector(".curr-date").innerHTML = fullDate;
+// document.querySelector(".curr-date").innerHTML = fullDate;
 
 function getYear() {
   return new Date().getFullYear();
