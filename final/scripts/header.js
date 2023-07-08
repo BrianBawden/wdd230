@@ -10,14 +10,20 @@ document.querySelector("header").innerHTML = `
     />
   </picture>
 </div>
-<ul class="nav response">
-  <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="pages/fresh.html">Fresh</a></li>
-  <li><a href="pages/about.html">About Us</a></li>
-  <li><a href="pages/attribute.html">Attribute</a></li>
-  
-</ul>
+<div>
+<a href="https://www.facebook.com/"><img src="/Users/brian/Desktop/wdd230/final/images/socialMedia/facebook.png" alt="facebook logo"></a>
+    
+</div>
+<div>
+    <ul class="nav response">
+    <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="pages/fresh.html">Fresh</a></li>
+    <li><a href="pages/about.html">About Us</a></li>
+    <li><a href="pages/attribute.html">Attribute</a></li>
+    
+    </ul>
+</div>
 
   `;
 
