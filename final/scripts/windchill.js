@@ -71,7 +71,6 @@ function displayResults(wData) {
 }
 
 function forecastResults(wForecast){
-  console.log(wForecast);
   const threeDays = [4, 12, 20];
   const forecastID = ["forecast1", "forecast2", "forecast3"];
 
@@ -81,9 +80,8 @@ function forecastResults(wForecast){
     const forecastDate = wForecast.list[threeDays[forecastID.indexOf(day)]].dt_txt.substring(5,10);
     const forecastTemp = wForecast.list[threeDays[forecastID.indexOf(day)]].main.temp;
 
-    setDay.innerHTML = `<br> ${forecastDate}:  ${forecastTemp}&deg; F<br>`;
+    setDay.innerHTML = `<br> ${forecastDate}:  ${forecastTemp.toFixed(0)}&deg; F<br>`;
 
-    console.log(wForecast.list[threeDays[forecastID.indexOf(day)]].dt_txt.substring(5,10));
   });
 
 }
