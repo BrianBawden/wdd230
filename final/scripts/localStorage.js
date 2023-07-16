@@ -1,0 +1,1 @@
+let getNow = new Date();
