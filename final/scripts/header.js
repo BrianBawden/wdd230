@@ -21,9 +21,7 @@ document.querySelector("header").innerHTML = `
     <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
     <li><a href="index.html">Home</a></li>
     <li><a href="fresh.html">Fresh</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="attribute.html">Attribute</a></li>
-    
+    <li><a href="about.html">About Us</a></li>    
     </ul>
 </div>
 
@@ -51,5 +49,8 @@ document.querySelector("header").innerHTML = `
     </p>
     <p id="update">Last updated: <span id="modDate"></span></p>
     <p id="weatherAPI">Weather data provided by OpenWeatherMap <span><a href="https://openweathermap.org" target="_blank">https://openweathermap.org</a></span></p>
-  </div>
+    <p id="attributes">Other information resources: <a href="attribute.html">Attributes</a></p>
+    </div>
+  
+
   `;
