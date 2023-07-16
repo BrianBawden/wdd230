@@ -1,9 +1,9 @@
+console.log("test1");
 // ********* get fruit.json from stuff **********
 const fruitJson = '../stuff/fruit.json';
 const selectFruit1 = document.querySelector("#fruit1");
 const selectFruit2 = document.querySelector("#fruit2");
 const selectFruit3 = document.querySelector("#fruit3");
-let ArrayFruit = [];
 
 
 async function getFruit(){
@@ -33,11 +33,22 @@ async function getFruit(){
 }
 
 
+function showOrder(event){
+
+    event.preventDefault();
+   const fname = document.querySelector("input[name='fName']").value;
+   const email = document.querySelector("input[name='email']").value;
+   const phone = document.querySelector("input[name='phone']").value;
+   const fruit1 = document.querySelector("select[name='fruit1']").value;
+   const fruit2 = document.querySelector("select[name='fruit2']").value;
+   const fruit3 = document.querySelector("select[name='fruit3']").value;
+   const comment = document.querySelector("textarea[name='comment']").value;
+   const date = document.querySelector("input[name='getDate']").value;
+
+
+
+
+}
+
 getFruit();
-
-// console.log(ArrayFruit);
-
-// ArrayFruit.forEach(fruit => {
-//     console.log("test");
-//     // console.log(fruit.name);
-// })
+document.querySelector("#drinkOrder").addEventListener("submit", showOrder);

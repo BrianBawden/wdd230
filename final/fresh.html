@@ -13,29 +13,32 @@
 <body>
     <header></header>
     <main id="freshMain">
-        <form action="drinkInfo.js" id="drinkOrder">
+        <form onsubmit="" id="drinkOrder">
             <fieldset id="drinkQuestions">
                 <legend>What'll Ya Have?</legend>
                 <label for="fName">First Name*</label>
                 <input id="fName" name="fName" type="text" required>
-                <label for="fName">Email*</label>
+                <label for="email">Email*</label>
                 <input id="email" name="email" type="email" required>
                 <label for="phone">Phone Number*</label>
                 <input id="phone" name="phone" type="tel" required>
-                <label for="fruits">First Fruit</label>
+                <label for="fruit1">First Fruit</label>
                 <select class="fruits" id="fruit1" name="fruit1"></select>
-                <label for="fruits">Second Fruit</label>
+                <label for="fruit2">Second Fruit</label>
                 <select class="fruits" id="fruit2" name="fruit2"></select>
-                <label for="fruits">Third Fruit</label>
+                <label for="fruit3">Third Fruit</label>
                 <select class="fruits" id="fruit3" name="fruit3"></select>
-
+                <label for="comment">Special Instructions</label>
+                <textarea id="comment" name="comment"></textarea>
             </fieldset>
+            <input type="hidden" id="getDate" name="getDate" value="">
+            <input type="submit" id="order" value="Order Drink">
         </form>
     </main>
     <footer></footer>
 
     <script src="../scripts/header.js"></script>
-    <script src="scripts/date.js"></script>
-    <script src="scripts/drinks.js"></script>
+    <script src="../scripts/date.js"></script>
+    <script src="../scripts/drinks.js"></script>
 </body>
 </html>
