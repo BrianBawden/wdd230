@@ -26,7 +26,7 @@ try{
 } catch(error){}
 
 function getDate(){
-  console.log(now);
+  // console.log(now);
   document.querySelector("#getDate").value = now;
 
 }
