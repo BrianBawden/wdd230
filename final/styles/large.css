@@ -1,0 +1,29 @@
+@media (min-width: 950px){
+
+    #logo{
+        margin: auto;
+    }
+
+    #socialMedia{
+        margin: auto;
+    }
+
+    main{
+        max-width: 900px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    body{
+        text-align: center;
+    }
+    
+    input, select, textarea{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
