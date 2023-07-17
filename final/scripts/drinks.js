@@ -11,12 +11,8 @@ let fat = [];
 let sugar = [];
 let cal = [];
 
-let carbTotal = 0;
-let proteinTotal = 0;
-let fatTotal = 0;
-let sugarTotal = 0;
-let calTotal = 0;
 
+// get the fruit info from json file.
 async function getFruit() {
   const response = await fetch(fruitJson);
   const fruitData = await response.json();
@@ -43,6 +39,7 @@ async function getFruit() {
   });
 }
 
+// adding info to html for order
 function showOrder(event) {
   event.preventDefault();
   const yourOrder = document.querySelector("#yourOrder");
@@ -65,6 +62,7 @@ function showOrder(event) {
   const orderFruit2 = document.createElement("p");
   const orderFruit3 = document.createElement("p");
   const orderComment = document.createElement("p");
+  const orderNutrition = document.createElement("p");
 
   // get values for nutrients.
   appendNutrition(ArrayFruit, fruit1);
@@ -77,8 +75,6 @@ function showOrder(event) {
   let sugarTotal = addNutrition(sugar);
   let calTotal = addNutrition(cal);
 
-  console.log(carbTotal);
-  console.log(sugarTotal);
 
   // set the values for order
   orderDate.textContent = `Date: ${date}`;
@@ -89,6 +85,7 @@ function showOrder(event) {
   orderFruit2.textContent = `Second Fruit: ${fruit2}`;
   orderFruit3.textContent = `Third Fruit: ${fruit3}`;
   orderComment.textContent = `Comments: ${comment}`;
+  orderNutrition.textContent = `carbs: ${carbTotal.toFixed(2)}, protein: ${proteinTotal.toFixed(2)}, fat: ${fatTotal.toFixed(2)}, sugar: ${sugarTotal.toFixed(2)}, calories: ${calTotal.toFixed(2)}`;
 
   // appending orders to html
   yourOrder.appendChild(orderDate);
@@ -99,8 +96,10 @@ function showOrder(event) {
   yourOrder.appendChild(orderFruit2);
   yourOrder.appendChild(orderFruit3);
   yourOrder.appendChild(orderComment);
+  yourOrder.appendChild(orderNutrition);
 }
 
+// add the nutrition data to the nutrient arrays.
 function appendNutrition(array, fruitName) {
   array.forEach((fruit) => {
     if (fruit.name === fruitName) {
@@ -113,6 +112,7 @@ function appendNutrition(array, fruitName) {
   });
 }
 
+// return the total from the nutrition arrays.
 function addNutrition(array) {
   let total = 0;
   array.forEach((x) => {
