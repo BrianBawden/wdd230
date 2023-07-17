@@ -9,26 +9,26 @@
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
     <link rel="icon" href="images/socialMedia/fruit-stand.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header></header>
     <main>
       <h1>Carlsbad Fruit Stand</h1>
       <div class="content" id="index_content">
-        <img src="images/sellingFruit.jpg" alt="Fruit store" loading="lazy" />
+        <img id="fruitSale" src="images/sellingFruit.jpg" alt="Fruit store" loading="lazy" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tempore
           blanditiis, consectetur sunt commodi error maiores ad? Deleniti
           dignissimos accusamus dolores quia excepturi quam possimus. Quisquam,
           nemo aspernatur! Quam cupiditate est, mollitia autem provident
           assumenda doloremque? Veniam, iusto est nulla facere voluptate harum
-          aliquid corrupti facilis aut modi nesciunt id asperiores hic, a illo
-          repellendus culpa inventore soluta sit ipsam nemo voluptatem. Dolorem
-          deserunt magnam eveniet dignissimos consequuntur. Maiores hic minus,
-          animi dolores inventore officiis odit consectetur porro harum beatae
-          ea asperiores quo ipsa sequi accusamus assumenda officia mollitia
-          consequuntur itaque eum illo provident soluta nihil! Minus iure
-          possimus perferendis!
+          aliquid corrupti facilis aut modi nesciunt id asperiores hic,
         </p>
       </div>
       <div class="content" id="index_smoothie_info">
@@ -46,14 +46,7 @@
           repudiandae dolorum esse perferendis asperiores unde soluta
           voluptatibus laudantium quod recusandae provident, placeat facilis
           voluptas quasi praesentium officia cupiditate accusamus! Sequi
-          deserunt cupiditate molestias similique, et incidunt, facilis laborum
-          iste corrupti adipisci velit distinctio sit ab id voluptates officiis
-          ipsa, quod accusamus quasi reprehenderit doloremque. Pariatur, autem.
-          Temporibus accusamus neque at, voluptatibus quisquam omnis! Non iste
-          aperiam itaque sapiente adipisci, reiciendis expedita assumenda
-          aspernatur voluptate illum voluptatem consectetur alias dicta unde
-          earum rerum necessitatibus ratione cupiditate porro. Quisquam quas
-          maiores a.
+          deserunt cupiditate molestias similique, 
         </p>
       </div>
 
@@ -62,14 +55,13 @@
         <p>Tempiture: <span id="temp"></span>&deg; F</p>
         <p>Humidity: <span id="humidity"></span>%</p>
         <figure>
-          <img id="wIcon" src="" alt="" loading="lazy"/>
+          <img id="wIcon" src="" alt="" loading="lazy" />
           <figcaption id="wCondition"></figcaption>
         </figure>
         <p>Wind Speed: wind <span id="windSpeed"></span>mph</p>
         <p>Wind Chill: <span id="windChill"></span></p>
-
-        <p>
-          3 Day Forecast:<br />
+          <h2>3 Day Forecast</h2>
+          <p>
           <span id="forecast1"></span>
           <span id="forecast2"></span>
           <span id="forecast3"></span>

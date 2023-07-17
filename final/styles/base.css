@@ -1,0 +1,47 @@
+/*  FONT FAMILIES
+TEXT: font-family: 'Lato', sans-serif;
+HEADERS: font-family: 'Merriweather', serif; 
+*/
+
+/* COLORS 
+RED:         # B30605
+GREEN:       # C7C021
+LIGHT RED:   # EE3620
+DARK RED:    # 3C0F04
+GRAY:        # 917051
+*/
+
+body{
+    background-color: #C7C021;
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    color: #B30605;
+}
+
+h1, h2, h3{
+    font-family: 'Merriweather', serif; 
+    color: #3C0F04;
+}
+
+img{
+    max-width: 99%;
+    font-size: 2rem;
+}
+
+button{
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    width: 90%;
+    margin: 1rem;
+}
+
+ul{
+    list-style: none;
+}
