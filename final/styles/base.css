@@ -30,6 +30,42 @@ h1, h2, h3{
     color: #3C0F04;
 }
 
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: .5rem;
+}
+
+#logo{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+#socialMedia{
+    grid-column-start: 3;
+    justify-self: end;
+}
+
+#pageLinks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-end: span 2;
+  }
+  
+  .nav {
+    display: flex; /* Use flexbox for the list items */
+    flex-direction: row; /* Display the list items in a row */
+    justify-content: flex-end; /* Align the list items to the right */
+    grid-row: 2; /* Place the list items in grid-row 2 */
+  }
+  
+  .nav li {
+    padding-top: 0; /* Remove the top padding for the list items */
+    margin-right: 1rem; /* Add some spacing between the list items */
+  }
+  
+
 img{
     max-width: 99%;
     font-size: 2rem;
@@ -40,8 +76,22 @@ button{
     font-size: x-large;
     width: 90%;
     margin: 1rem;
+    border-radius: 4rem;
 }
 
 ul{
     list-style: none;
+    font-size: x-large;
+}
+
+li{
+    padding-top: .5rem;
+}
+
+#socialMedia{
+    width: 3rem;
+}
+
+#socialMedia img{
+    margin-top: 1rem;
 }
