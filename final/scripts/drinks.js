@@ -99,6 +99,8 @@ function showOrder(event) {
   yourOrder.appendChild(orderFruit3);
   yourOrder.appendChild(orderComment);
   yourOrder.appendChild(orderNutrition);
+
+  drinkCounter()
 }
 
 // add the nutrition data to the nutrient arrays.
@@ -121,6 +123,15 @@ function addNutrition(array) {
     total += x;
   });
   return total;
+}
+
+function drinkCounter(){
+
+  let drinkCount = localStorage.getItem("count");
+  console.log(drinkCount)
+  drinkCount = parseInt(drinkCount) + 1;
+  localStorage.setItem("count", drinkCount);
+  console.log('plus one ' + drinkCount)
 }
 
 getFruit();
