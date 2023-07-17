@@ -33,13 +33,17 @@ h1, h2, h3{
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: .5rem;
+    grid-template-rows: 1fr 100px;
+    /* gap: .5rem; */
 }
 
 #logo{
     grid-column-start: 1;
     grid-column-end: span 2;
+}
+
+#icon{
+    margin-top: 3rem;
 }
 
 #socialMedia{
