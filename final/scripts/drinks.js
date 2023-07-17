@@ -101,6 +101,7 @@ function showOrder(event) {
   yourOrder.appendChild(orderNutrition);
 
   drinkCounter()
+  this.reset();
 }
 
 // add the nutrition data to the nutrient arrays.
