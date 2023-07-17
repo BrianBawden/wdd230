@@ -28,5 +28,6 @@ try {
 function getDate() {
   document.querySelector("#getDate").value = fullDate;
 }
-
-document.querySelector("#drinkOrder").addEventListener("submit", getDate);
+try{
+  document.querySelector("#drinkOrder").addEventListener("submit", getDate);
+} catch (error) {}
