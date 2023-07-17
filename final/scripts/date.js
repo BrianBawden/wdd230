@@ -21,14 +21,12 @@ function getMod() {
 if (now.getDay() === 1 || now.getDay() === 2) {
   document.querySelector(".banner").style.display = "unset";
 }
-try{
-  joinBtn.addEventListener("click", getDate)
-} catch(error){}
+try {
+  joinBtn.addEventListener("click", getDate);
+} catch (error) {}
 
-function getDate(){
-
+function getDate() {
   document.querySelector("#getDate").value = fullDate;
-
 }
 
 document.querySelector("#drinkOrder").addEventListener("submit", getDate);

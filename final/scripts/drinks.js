@@ -11,7 +11,6 @@ let fat = [];
 let sugar = [];
 let cal = [];
 
-
 // get the fruit info from json file.
 async function getFruit() {
   const response = await fetch(fruitJson);
@@ -75,7 +74,6 @@ function showOrder(event) {
   let sugarTotal = addNutrition(sugar);
   let calTotal = addNutrition(cal);
 
-
   // set the values for order
   orderDate.textContent = `Date: ${date}`;
   orderFName.textContent = `First Name: ${fname}`;
@@ -85,7 +83,11 @@ function showOrder(event) {
   orderFruit2.textContent = `Second Fruit: ${fruit2}`;
   orderFruit3.textContent = `Third Fruit: ${fruit3}`;
   orderComment.textContent = `Comments: ${comment}`;
-  orderNutrition.textContent = `carbs: ${carbTotal.toFixed(2)}, protein: ${proteinTotal.toFixed(2)}, fat: ${fatTotal.toFixed(2)}, sugar: ${sugarTotal.toFixed(2)}, calories: ${calTotal.toFixed(2)}`;
+  orderNutrition.textContent = `carbs: ${carbTotal.toFixed(
+    2
+  )}, protein: ${proteinTotal.toFixed(2)}, fat: ${fatTotal.toFixed(
+    2
+  )}, sugar: ${sugarTotal.toFixed(2)}, calories: ${calTotal.toFixed(2)}`;
 
   // appending orders to html
   yourOrder.appendChild(orderDate);
