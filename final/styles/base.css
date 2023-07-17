@@ -106,6 +106,10 @@ form, #yourOrder{
     color: #B30605;
 }
 
+fieldset{
+    border: #917051 solid .5rem;
+}
+
 legend{
     margin: 1.5rem;
     padding: .5rem;
@@ -114,4 +118,10 @@ legend{
 label, input, select, textarea{
     display: block;
     padding-top: .5rem;
+}
+
+hr{
+    margin: 2rem 0;
+    border: 2px solid #917051;
+    width: 100%;
 }
