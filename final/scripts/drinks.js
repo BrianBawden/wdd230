@@ -27,6 +27,7 @@ async function getFruit(){
         selectFruit1.appendChild(option1);
         selectFruit2.appendChild(option2);
         selectFruit3.appendChild(option3);
+
       });
       
 }
@@ -47,6 +48,7 @@ function showOrder(event){
    const date = document.querySelector("input[name='getDate']").value;
 
     // create and append child to show order
+    const orderDate = document.createElement('p');
     const orderFName = document.createElement('p');
     const orderEmail = document.createElement('p');
     const orderPhone = document.createElement('p');
@@ -56,6 +58,7 @@ function showOrder(event){
     const orderComment = document.createElement('p');
 
     // set the values for order
+    orderDate.textContent = `Date: ${date}`;
     orderFName.textContent = `First Name: ${fname}`;
     orderEmail.textContent = `Email: ${email}`;
     orderPhone.textContent = `Phone: ${phone}`;
@@ -65,6 +68,7 @@ function showOrder(event){
     orderComment.textContent = `Comments: ${comment}`;
 
     // appending orders to html
+    yourOrder.appendChild(orderDate);
     yourOrder.appendChild(orderFName);
     yourOrder.appendChild(orderEmail);
     yourOrder.appendChild(orderPhone);
@@ -72,6 +76,7 @@ function showOrder(event){
     yourOrder.appendChild(orderFruit2);
     yourOrder.appendChild(orderFruit3);
     yourOrder.appendChild(orderComment);
+
 
 }
 
