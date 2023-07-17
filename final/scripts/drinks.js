@@ -3,17 +3,32 @@ const fruitJson = '../stuff/fruit.json';
 const selectFruit1 = document.querySelector("#fruit1");
 const selectFruit2 = document.querySelector("#fruit2");
 const selectFruit3 = document.querySelector("#fruit3");
+// info to access database to calculate nutrition.
+let ArrayFruit = [];
+let carb = [];
+let protein = [];
+let fat = [];
+let sugar = [];
+let cal = [];
+
+let carbTotal;
+let proteinTotal;
+let fatTotal;
+let sugarTotal;
+let calTotal;
 
 
 async function getFruit(){
     const response = await fetch(fruitJson);
     const fruitData = await response.json();
 
+
     fruitData.forEach(fruit => {
         // Create a new option element for each select element
         const option1 = document.createElement('option');
         const option2 = document.createElement('option');
         const option3 = document.createElement('option');
+        ArrayFruit.push(fruit);
       
         // Set the value and text of the option element
         option1.value = fruit.name;
@@ -57,6 +72,11 @@ function showOrder(event){
     const orderFruit3 = document.createElement('p');
     const orderComment = document.createElement('p');
 
+    // get values for nutrients.
+    appendNutrition(ArrayFruit, fruit1);
+    appendNutrition(ArrayFruit, fruit2);
+    appendNutrition(ArrayFruit, fruit3);
+
     // set the values for order
     orderDate.textContent = `Date: ${date}`;
     orderFName.textContent = `First Name: ${fname}`;
@@ -77,8 +97,22 @@ function showOrder(event){
     yourOrder.appendChild(orderFruit3);
     yourOrder.appendChild(orderComment);
 
+}
+
+function appendNutrition(array, fruitName) {
+    array.forEach(fruit => {
+
+        if(fruit.name === fruitName){
+            carb.push(fruit.nutritions.carbohydrates);
+            protein.push(fruit.nutritions.protein);
+            fat.push(fruit.nutritions.fat);
+            sugar.push(fruit.nutritions.sugar);
+            cal.push(fruit.nutritions.calories);
+        }
+    })
 
 }
+
 
 getFruit();
 document.querySelector("#drinkOrder").addEventListener("submit", showOrder);
