@@ -1,0 +1,25 @@
+@media (min-width: 600px){
+
+    #logo{
+        margin: auto;
+    }
+
+    #socialMedia{
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    body{
+        text-align: center;
+    }
+    
+    input, select, textarea{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
