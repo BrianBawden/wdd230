@@ -10,9 +10,9 @@ document.querySelector("header").innerHTML = `
   </picture>
 </div>
 <div id="socialMedia">
-<a href="https://www.facebook.com/"><img src="/images/socialMedia/facebook.png" alt="facebook logo"></a>
-<a href="https://www.instagram.com/"><img src="/images/socialMedia/instagram.png" alt="instagram logo"></a>
-<a href="https://twitter.com/"><img src="/images/socialMedia/twitter.png" alt="twitter logo"></a>
+<a href="https://www.facebook.com/"><img src="images/socialMedia/facebook.png" alt="facebook logo"></a>
+<a href="https://www.instagram.com/"><img src="images/socialMedia/instagram.png" alt="instagram logo"></a>
+<a href="https://twitter.com/"><img src="images/socialMedia/twitter.png" alt="twitter logo"></a>
     
 </div>
 <div id="pageLinks">
