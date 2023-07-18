@@ -1,5 +1,5 @@
 // ********* get fruit.json from stuff **********
-const fruitJson = "../stuff/fruit.json";
+const fruitJson = "stuff/fruit.json";
 const selectFruit1 = document.querySelector("#fruit1");
 const selectFruit2 = document.querySelector("#fruit2");
 const selectFruit3 = document.querySelector("#fruit3");
