@@ -21,5 +21,10 @@
         margin: 0 auto;
         text-align: center;
     }
+
+    .nav{
+        padding-left: 50%;
+        justify-content: space-between;
+    }
 }
 
